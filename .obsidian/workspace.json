@@ -11,10 +11,14 @@
             "id": "68cdb554e7870c5e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "可发布的文档/远程遥控开关是怎样工作的.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "远程遥控开关是怎样工作的"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "可发布的文档/远程遥控开关是怎样工作的.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "远程遥控开关是怎样工作的 的反向链接列表"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "可发布的文档/远程遥控开关是怎样工作的.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "远程遥控开关是怎样工作的 的出链列表"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "可发布的文档/远程遥控开关是怎样工作的.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "远程遥控开关是怎样工作的 的大纲"
             }
           }
         ]
@@ -179,30 +186,37 @@
   },
   "active": "68cdb554e7870c5e",
   "lastOpenFiles": [
+    "日记/日记.md",
+    "日记",
+    "可发布的文档/assets/远程遥控开关是怎样工作的/RigolDS3.png",
+    "可发布的文档/assets/远程遥控开关是怎样工作的/RigolDS2.png",
+    "可发布的文档/assets/远程遥控开关是怎样工作的/RigolDS1.png",
+    "可发布的文档/assets/远程遥控开关是怎样工作的/file-20260224163152126.png",
+    "可发布的文档/assets/远程遥控开关是怎样工作的/file-20260224160950640.png",
+    "可发布的文档/assets/远程遥控开关是怎样工作的/file-20260224102408401.png",
+    "可发布的文档/assets/远程遥控开关是怎样工作的/file-20260224101029037.png",
+    "可发布的文档/assets/远程遥控开关是怎样工作的/file-20260211153140593.png",
+    "可发布的文档/assets/远程遥控开关是怎样工作的/file-20260211145923441.png",
+    "可发布的文档/assets/远程遥控开关是怎样工作的/3f3e954b53bdacca8e7b0d3b9f2820bc.mp4",
+    "可发布的文档/assets/远程遥控开关是怎样工作的",
+    "可发布的文档/远程遥控开关是怎样工作的.md",
+    "可发布的文档/assets",
+    "可发布的文档",
+    "technical_file/assets/RF射频/file-20260206123340400.png",
+    "technical_file/assets/RF射频",
+    "technical_file/assets/NFC",
+    "technical_file/有意思的视频选题.md",
+    "technical_file/WIFI和蓝牙.md",
+    "technical_file/RF射频.md",
+    "technical_file/OLED.md",
+    "technical_file/NFC.md",
+    "technical_file/assets",
+    "technical_file",
     "Break_M/日记/日记.md",
     "Break_M/日记",
-    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/RigolDS3.png",
-    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/RigolDS2.png",
-    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/RigolDS1.png",
-    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/file-20260224163152126.png",
-    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/file-20260224160950640.png",
-    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/file-20260224102408401.png",
-    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/file-20260224101029037.png",
-    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/file-20260211153140593.png",
-    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/file-20260211145923441.png",
-    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/3f3e954b53bdacca8e7b0d3b9f2820bc.mp4",
-    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的",
     "Break_M/可发布的文档/远程遥控开关是怎样工作的.md",
-    "Break_M/可发布的文档/assets",
-    "Break_M/可发布的文档",
-    "Break_M/technical_file/assets/RF射频/file-20260206123340400.png",
-    "Break_M/technical_file/assets/RF射频",
-    "Break_M/technical_file/assets/NFC",
-    "Break_M/technical_file/assets",
     "Break_M/technical_file/RF射频.md",
     "Break_M/technical_file/OLED.md",
-    "Break_M/technical_file/NFC.md",
-    "Break_M/technical_file",
-    "Break_M"
+    "Break_M/technical_file/NFC.md"
   ]
 }
