@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "674ea561079dad65",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f06dad4daea6016",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68cdb554e7870c5e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "effc79b13004a316",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bc984986adc67c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2197f58198f503f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7ecf2cbe7914d472",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d7b3ed8d91b0d136",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e62638d77916e893",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9f5074b920e5aa4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cee9ead8e100040",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "0d6c003d92718119",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "1ccd2f16cb3c8c35",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "f09bfcded98fad5a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "f417474185797485",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "68cdb554e7870c5e",
+  "lastOpenFiles": [
+    "Break_M/日记/日记.md",
+    "Break_M/日记",
+    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/RigolDS3.png",
+    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/RigolDS2.png",
+    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/RigolDS1.png",
+    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/file-20260224163152126.png",
+    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/file-20260224160950640.png",
+    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/file-20260224102408401.png",
+    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/file-20260224101029037.png",
+    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/file-20260211153140593.png",
+    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/file-20260211145923441.png",
+    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的/3f3e954b53bdacca8e7b0d3b9f2820bc.mp4",
+    "Break_M/可发布的文档/assets/远程遥控开关是怎样工作的",
+    "Break_M/可发布的文档/远程遥控开关是怎样工作的.md",
+    "Break_M/可发布的文档/assets",
+    "Break_M/可发布的文档",
+    "Break_M/technical_file/assets/RF射频/file-20260206123340400.png",
+    "Break_M/technical_file/assets/RF射频",
+    "Break_M/technical_file/assets/NFC",
+    "Break_M/technical_file/assets",
+    "Break_M/technical_file/RF射频.md",
+    "Break_M/technical_file/OLED.md",
+    "Break_M/technical_file/NFC.md",
+    "Break_M/technical_file",
+    "Break_M"
+  ]
+}
