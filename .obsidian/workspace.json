@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "远程遥控开关是怎样工作的"
             }
+          },
+          {
+            "id": "e0a529ab845aa947",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68cdb554e7870c5e",
+  "active": "e0a529ab845aa947",
   "lastOpenFiles": [
     "可发布的文档/assets/远程遥控开关是怎样工作的/file-20260228124423637.png",
     "可发布的文档/assets/远程遥控开关是怎样工作的/file-20260228124255461.png",
