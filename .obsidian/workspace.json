@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CAN.md",
+                "file": "technical_file/CAN.md",
                 "mode": "source",
                 "source": false
               },
@@ -202,7 +202,7 @@
   "active": "8911d6f6d1a4e232",
   "lastOpenFiles": [
     "technical_file/MPU6050.md",
-    "CAN.md",
+    "technical_file/CAN.md",
     "可发布的文档/远程遥控开关是怎样工作的.md",
     "可发布的文档/assets/远程遥控开关是怎样工作的/file-20260228124423637.png",
     "可发布的文档/assets/远程遥控开关是怎样工作的/file-20260228124255461.png",
