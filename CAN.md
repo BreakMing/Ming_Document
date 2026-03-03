@@ -50,7 +50,14 @@
 
 机器人基本要11个节点  
 
-11、
+11、共模电啊   bus   +-58v    Vio   1.7~5.5电压兼容   最主要是EMC问题   ESD  EMI  DPI  IMP   重要指标   IEC2228-3   all pass   
+德国
+FTZ/IBEE   
+C&S   物理层认证
+日本丰田 
+VELIO认证   物理成
+
+软件
 
 
 
