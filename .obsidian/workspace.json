@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "70e91fb4a5c4d2bb",
+        "id": "d10ebd528cda9d5d",
         "type": "tabs",
         "children": [
           {
-            "id": "563af163f3b5a5b3",
+            "id": "dd82878848b3e9d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -185,22 +184,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "563af163f3b5a5b3",
+  "active": "d2197f58198f503f",
   "lastOpenFiles": [
-    "technical_file/assets/MPU6050/file-20260310105851636.png",
+    "technical_file/assets/MPU6050/file-20260306160521036.png",
+    "technical_file/assets/MPU6050/file-20260309170536380.png",
+    "technical_file/assets/MPU6050/file-20260305184844353.png",
     "technical_file/assets/MPU6050/file-20260310105752903.png",
+    "technical_file/assets/MPU6050/file-20260305184715619.png",
+    "technical_file/assets/MPU6050/file-20260303191638781.png",
+    "technical_file/MPU6050.md",
+    "technical_file/assets/MPU6050/file-20260310105851636.png",
     "technical_file/assets/MPU6050/file-20260310100646045.png",
     "technical_file/assets/MPU6050/file-20260310100616762.png",
     "technical_file/assets/MPU6050/file-20260309172435194.png",
     "technical_file/assets/MPU6050/file-20260309170718600.png",
-    "technical_file/assets/MPU6050/file-20260309170543914.png",
-    "technical_file/assets/MPU6050/file-20260309170536380.png",
-    "technical_file/assets/MPU6050/file-20260306160521036.png",
-    "technical_file/assets/MPU6050/file-20260305184844353.png",
-    "technical_file/assets/MPU6050/file-20260305184715619.png",
     "technical_file/assets/MPU6050",
     "technical_file/CAN.md",
-    "technical_file/MPU6050.md",
     "可发布的文档/远程遥控开关是怎样工作的.md",
     "日记/日记.md",
     "日记",
