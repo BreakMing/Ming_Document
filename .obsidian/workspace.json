@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e62638d77916e893",
@@ -184,7 +185,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d2197f58198f503f",
+  "active": "dd82878848b3e9d2",
   "lastOpenFiles": [
     "technical_file/assets/MPU6050/file-20260306160521036.png",
     "technical_file/assets/MPU6050/file-20260309170536380.png",
