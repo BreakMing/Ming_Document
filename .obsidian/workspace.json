@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -187,6 +186,8 @@
   },
   "active": "dd82878848b3e9d2",
   "lastOpenFiles": [
+    "technical_file/CAN.md",
+    "technical_file/MPU6050.md",
     "technical_file/assets/MPU6050/file-20260311120927120.png",
     "technical_file/assets/MPU6050/file-20260311120605306.png",
     "technical_file/assets/MPU6050/file-20260311111844371.png",
@@ -196,11 +197,8 @@
     "technical_file/assets/MPU6050/file-20260310105752903.png",
     "technical_file/assets/MPU6050/file-20260305184715619.png",
     "technical_file/assets/MPU6050/file-20260303191638781.png",
-    "technical_file/MPU6050.md",
     "technical_file/assets/MPU6050/file-20260310105851636.png",
-    "technical_file/assets/MPU6050/file-20260310100646045.png",
     "technical_file/assets/MPU6050",
-    "technical_file/CAN.md",
     "可发布的文档/远程遥控开关是怎样工作的.md",
     "日记/日记.md",
     "日记",
