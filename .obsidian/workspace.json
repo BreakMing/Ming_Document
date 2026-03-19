@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "MPU6050"
             }
+          },
+          {
+            "id": "b236cbccef6a3978",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "technical_file/Package manager.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Package manager"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -185,10 +199,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd82878848b3e9d2",
+  "active": "b236cbccef6a3978",
   "lastOpenFiles": [
-    "technical_file/CAN.md",
     "technical_file/MPU6050.md",
+    "technical_file/Package manager.md",
+    "technical_file/CAN.md",
     "technical_file/assets/MPU6050/file-20260311120927120.png",
     "technical_file/assets/MPU6050/file-20260311120605306.png",
     "technical_file/assets/MPU6050/file-20260311111844371.png",
