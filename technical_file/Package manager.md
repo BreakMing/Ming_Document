@@ -31,7 +31,19 @@ apt download nginx
 
 ![](assets/Package%20manager/file-20260320125641088.png)
 
+使用以下命令可以解压.deb包
 
+```
+ar x nginx_1.24.0-2ubuntu7.6_amd64.deb
+```
+
+解开后我们对比发现，新增了下图中这三个文件文件
+
+![](assets/Package%20manager/file-20260320140345041.png)
+
+- debian-binary：记录了deb包的格式版本
+- control.tar.zst：包含了元数据和依赖信息以及控制脚本
+- data.tar.zst：包含软件本体和配置文件以及启动脚本
 
 
 
