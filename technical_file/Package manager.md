@@ -78,7 +78,7 @@ ar x nginx_1.24.0-2ubuntu7.6_amd64.deb
 
 系统级的包管理器可以理解为是下载软件和系统组件的
 
-像我们使用的apt、winget、brew这样的
+像我们使用的apt、winget、brew这样的命令
 
 
 
