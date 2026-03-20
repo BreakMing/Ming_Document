@@ -116,11 +116,15 @@ curl https://www.baidu.com
 
 ![](assets/Package%20manager/file-20260320171308149.png)
 
-我们先不管它具体在做什么，我们再看看wget会怎么做。
+我们先不管curl具体在做什么，我们再看看wget会怎么做，一样输入下面这段命令：
 
+```
+wget http://www.baidu.com
+```
 
+![](assets/Package%20manager/file-20260320171609585.png)
 
-
+我们发现
 
 
 
