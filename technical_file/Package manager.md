@@ -15,6 +15,13 @@
 
 我们以Ubuntu的一个常用的niginx这个软件包为例。
 
+这个包的功能可以理解为是Ubuntu服务器环境中主流的一个Web服务组件。
+
+我们先使用
+
+```
+apt download nginx
+```
 
 
 
