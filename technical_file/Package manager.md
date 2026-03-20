@@ -124,7 +124,7 @@ wget http://www.baidu.com
 
 ![](assets/Package%20manager/file-20260320171609585.png)
 
-我们发现
+我们发现它确实访问了百度官网，但在我本地保存了一个index.html文件
 
 
 
