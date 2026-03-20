@@ -45,9 +45,9 @@ ar x nginx_1.24.0-2ubuntu7.6_amd64.deb
 - control.tar.zst：包含了元数据和依赖信息以及控制脚本
 - data.tar.zst：包含软件本体和配置文件以及启动脚本
 
-我们先把control.tar.zst解压出来，看看里面都有什么。
+我们先把control.tar.zst解压出来，看里面都看有什么。
 
-解压后我们可以看到里面有五个文件，如下图所示：
+解压后我们可以看到里面有四个文件，如下图所示：
 
 ![](assets/Package%20manager/file-20260320141855086.png)
 
