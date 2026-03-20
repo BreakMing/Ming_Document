@@ -37,7 +37,7 @@ apt download nginx
 ar x nginx_1.24.0-2ubuntu7.6_amd64.deb
 ```
 
-解开后我们对比发现，新增了下图中这三个文件文件
+解开后我们对比发现，新增了下图中这三个文件
 
 ![](assets/Package%20manager/file-20260320140345041.png)
 
@@ -45,11 +45,25 @@ ar x nginx_1.24.0-2ubuntu7.6_amd64.deb
 - control.tar.zst：包含了元数据和依赖信息以及控制脚本
 - data.tar.zst：包含软件本体和配置文件以及启动脚本
 
+我们先把control.tar.zst解压出来，看看里面都有什么。
 
+解压后我们可以看到里面有五个文件，如下图所示：
 
+![](assets/Package%20manager/file-20260320141855086.png)
 
+分别表示的是：
+- control：元数据和包的基础信息，相当于这个包的说明书和身份证。
+- md5sums：文件校验用的。
+- postinst：包含了安装脚本
+- prerm：包含了卸载脚本
 
+在这里重点要看control文件的内容，如下图所示;
 
+![](assets/Package%20manager/file-20260320142012268.png)
+
+里面只是写了包名、版本、支持的平台等一些讲解的基础信息
+
+让我们回到之前，
 
 
 
