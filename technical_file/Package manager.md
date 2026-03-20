@@ -65,8 +65,9 @@ ar x nginx_1.24.0-2ubuntu7.6_amd64.deb
 
 而另一个data.tar.zst包我们解压出来后是这个样子的。
 
+![](assets/Package%20manager/file-20260320142719127.png)
 
-
+只有一个usr文件夹，它里面就是nginx这个包运行时候的主程序了
 
 
 
