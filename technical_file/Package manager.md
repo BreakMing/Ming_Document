@@ -139,7 +139,7 @@ cat index.html
 
 #### APT
 
-这个命令仅限在Diban发行版下使用，
+
 
 
 
