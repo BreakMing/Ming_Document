@@ -11,7 +11,7 @@
 这个就牵扯到不同的系统、不同的编程语言的问题了，比如系统级的.deb（Debian/Ubuntu）、.rpm（CentOS/Fedora）；编程语言级的.whl（Python）。
 
 
-## 包的组成
+## 软件包的组成
 
 我们以Ubuntu的一个常用的niginx这个软件包为例。
 
