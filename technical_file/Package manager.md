@@ -27,7 +27,12 @@ apt download nginx
 
 ![](assets/Package%20manager/file-20260320124826626.png)
 
-给大家讲一下这个软件包名是什么意思
+依据下图可大致理解这个软件包名所包含的信息：
+
+![](assets/Package%20manager/file-20260320125641088.png)
+
+
+
 
 
 
