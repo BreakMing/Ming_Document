@@ -8,7 +8,7 @@
 
 那么在我们日常生活中，电脑和手机都可以运行QQ、微信等各种既能在电脑上运行，也能在手机上运行的软件，那么它们除了后缀，本质上有什么不同呢，
 
-这个就牵扯到格式的问题了，比如系统级的.deb（Debian/Ubuntu）、.rpm（CentOS/Fedora）；编程语言级的.whl（Python）。
+这个就牵扯到不同的系统、不同的编程语言的问题了，比如系统级的.deb（Debian/Ubuntu）、.rpm（CentOS/Fedora）；编程语言级的.whl（Python）。
 
 
 
