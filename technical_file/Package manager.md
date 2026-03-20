@@ -11,12 +11,6 @@
 这个就牵扯到不同的系统、不同的编程语言的问题了，比如系统级的.deb（Debian/Ubuntu）、.rpm（CentOS/Fedora）；编程语言级的.whl（Python）。
 
 
-
-
-
-
-当Debian诞生时，这样的一个管理工具dpkg也就应运而生，可以用来管理deb后缀的“包“文件。从而著名的“package“的概念第一次出现在GNU/Linux系统中。
-
 ## 包的组成
 
 - 二进制文件
