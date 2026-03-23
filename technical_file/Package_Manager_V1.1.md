@@ -40,6 +40,11 @@
 | MacPorts |                        macOS全系                         |                     仅支持macOS系统                     |
 |   Fink   |                        macOS全系                         |                     仅支持macOS系统                     |
 
+### APT
+
+
+
+
 
 ## 编程语言级包管理工具
 
