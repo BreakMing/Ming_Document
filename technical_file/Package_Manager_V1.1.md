@@ -44,6 +44,15 @@
 
 Dibian、Ubuntu等Debian官方默认的系统级包管理器，基于dpkg包工具构建，是Linux生态中使用最广泛的系统级包管理器。
 
+#### 基础操作讲解
+
+```
+apt update
+```
+
+同步本地仓库列表，
+
+
 ### winget
 
 
