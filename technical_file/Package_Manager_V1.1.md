@@ -14,13 +14,9 @@
 - pip install wifi-densepose[gpu]
 - pip install wifi-densepose[all]
 
-这三个命令都是安装了wifi-densepose这个python包，这个包是做什么的感兴趣的可以深入去查询下，对于刚接触命令行的我们只要能看懂就可以了，后面中括号内的是对这个包的扩展描述。
-
-
+这三个命令都是安装了wifi-densepose这个python包，这个包是做什么的感兴趣的可以深入去查询下，对于刚接触命令行的我们来说，只要能看懂就可以了，后面中括号内的是对这个包的扩展描述。
 
 比如gpu后缀的就是在基础版上额外安装支持GPU加速的依赖。
-
-而后面的all后缀的就是会安装这个包所有东西
 
 
 
