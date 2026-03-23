@@ -18,9 +18,32 @@
 
 比如gpu后缀的就是在基础版上额外安装支持GPU加速的依赖。
 
+## 包管理工具大全
 
 
+debian系统包管理：dpkg  **apt**
 
+arch系统包管理：pacman
+
+gentoo系统包管理：emerge
+
+slackware包管理：pkg
+
+solus包管理：eopkg
+
+redhat系统包管理：**dnf yum**
+
+SUSE包管理：zypper
+
+|   包管器    |    可以支持的系统    |
+| :------: | :-----------: |
+| atp dpkg | Debian Ubuntu |
+|  pacman  |     arch      |
+|  emerge  |    gentoo     |
+|   pkg    |   slackware   |
+|  eopkg   |     solus     |
+| dnf yum  |    redhat     |
+|  zypper  |     SUSE      |
 
 
 
