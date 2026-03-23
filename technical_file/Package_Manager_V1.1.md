@@ -35,7 +35,7 @@
 |   Nix    |                         NixOS                          |          支持全Linux发行版、macOS、Windows WSL2系统          |
 | Homebrew |               macOS、Linux、Windows（WSL2）                |          支持全Linux发行版、macOS、Windows WSL2系统          |
 |   Snap   |                  Ubuntu、绝大多数Linux发行版                   | Ubuntu 默认安装，支持绝大多数 Linux 发行版，Windows、macOS 提供实验性支持 |
-| Flatpak  |           Fedora、Ubuntu、Debian、Arch等Linux系统            |                   仅支持大多数Linux系统                    |
+| Flatpak  |           Fedora、Ubuntu、Debian、Arch等Linux系统            |        支持主流的 Linux 系统，Windows、macOS 提供实验性支持        |
 |  winget  |                Windows10、Windows11以上版本                 |                    仅支持Windows系统                    |
 | MacPorts |                        macOS全系                         |                     仅支持macOS系统                     |
 |   Fink   |                        macOS全系                         |                     仅支持macOS系统                     |
