@@ -35,16 +35,17 @@ redhat系统包管理：**dnf yum**
 
 SUSE包管理：zypper
 
-|  包管器名称   |               可以支持的系统               |       跨平台使用       |
-| :------: | :---------------------------------: | :---------------: |
-| APT dpkg |      Debian、Ubuntu等Debian衍生版系统      | 仅支持Linux Dibian系统 |
-|  pacman  |      Linux Arch、Manjaro等衍生版系统       |  仅支持Linux Arch系统  |
-| Portage  |  Linux Gentoo、Funtoo、ChromeOS底层系统   | 仅支持Linux Gentoo系统 |
-|   pkg    | FreeBSD、NetBSD、OpenBSD、DragonFlyBSD |    仅支持BSD系列系统     |
-|   DNF    |   RHEL/CentOS/Fedora 体系下**旧版**系统    | 仅支持Linux RHEL旧版系统 |
-|   YUM    |   RHEL/CentOS/Fedora 体系下**新版**系统    | 仅支持Linux RHEL新版系统 |
-|  Zypper  |  openSUSE、SUSE Linux Enterprise等系统  |  仅支持Linux SUSE系统  |
-|          |                                     |                   |
+|  包管器名称   |                        可以支持的系统                         |         跨平台使用         |
+| :------: | :----------------------------------------------------: | :-------------------: |
+| APT dpkg |               Debian、Ubuntu等Debian衍生版系统                |   仅支持Linux Dibian系统   |
+|  pacman  |                Linux Arch、Manjaro等衍生版系统                |    仅支持Linux Arch系统    |
+| Portage  |            Linux Gentoo、Funtoo、ChromeOS底层系统            |   仅支持Linux Gentoo系统   |
+|   pkg    |          FreeBSD、NetBSD、OpenBSD、DragonFlyBSD           |      仅支持BSD系列系统       |
+|   DNF    |             RHEL/CentOS/Fedora 体系下**旧版**系统             |   仅支持Linux RHEL旧版系统   |
+|   YUM    |             RHEL/CentOS/Fedora 体系下**新版**系统             |   仅支持Linux RHEL新版系统   |
+|  Zypper  |           openSUSE、SUSE Linux Enterprise等系统            |    仅支持Linux SUSE系统    |
+|   RPM    | RHEL系列、Fedora、CentOS、openSUSE、SUSE Linux Enterprise等系统 | 仅支持Linux REL和SUSE系统底层 |
+|          |                                                        |                       |
 
 
 
