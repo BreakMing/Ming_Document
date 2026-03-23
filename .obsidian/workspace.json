@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technical_file/Package manager.md",
+                "file": "technical_file/Package_Manager_V1.0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Package manager"
+              "title": "Package_Manager_V1.0"
+            }
+          },
+          {
+            "id": "e1bdf88a503e11de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "technical_file/Package_Manager_V1.1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Package_Manager_V1.1"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -200,20 +213,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b236cbccef6a3978",
+  "active": "e1bdf88a503e11de",
   "lastOpenFiles": [
+    "technical_file/Package_Manager_V1.0.md",
+    "technical_file/assets/Package_Manager_V1.0",
+    "technical_file/Package_Manager_V1.1.md",
     "technical_file/MPU6050.md",
-    "technical_file/Package manager.md",
-    "technical_file/assets/Package manager/file-20260320171839802.png",
-    "technical_file/assets/Package manager/file-20260320171609585.png",
-    "technical_file/assets/Package manager/file-20260320171308149.png",
-    "technical_file/assets/Package manager/file-20260320142719127.png",
-    "technical_file/assets/Package manager/file-20260320142012268.png",
-    "technical_file/assets/Package manager/file-20260320141855086.png",
-    "technical_file/assets/Package manager/file-20260320141521950.png",
-    "technical_file/assets/Package manager/file-20260320140345041.png",
-    "technical_file/assets/Package manager/file-20260320125641088.png",
-    "technical_file/assets/Package manager/file-20260320124826626.png",
+    "technical_file/assets/Package_Manager_V1.0/file-20260323102712103.png",
+    "technical_file/assets/Package_Manager_V1.0/file-20260323102712104.png",
+    "technical_file/assets/Package_Manager_V1.0/file-20260323102712104 1.png",
+    "technical_file/assets/Package_Manager_V1.0/file-20260323102712105.png",
+    "technical_file/assets/Package_Manager_V1.0/file-20260323102712106.png",
+    "technical_file/assets/Package_Manager_V1.0/file-20260323102712106 1.png",
+    "technical_file/assets/Package_Manager_V1.0/file-20260323102712121.png",
+    "technical_file/assets/Package_Manager_V1.0/file-20260323102712122.png",
+    "technical_file/assets/Package_Manager_V1.0/file-20260323102712103 1.png",
+    "technical_file/assets/Package_Manager_V1.0/file-20260323102712123.png",
     "technical_file/assets/Package manager",
     "technical_file/CAN.md",
     "technical_file/assets/MPU6050",
@@ -231,7 +246,6 @@
     "technical_file/RF射频.md",
     "technical_file/OLED.md",
     "technical_file/NFC.md",
-    "technical_file/assets",
     "Break_M/日记/日记.md",
     "Break_M/可发布的文档/远程遥控开关是怎样工作的.md",
     "Break_M/technical_file/RF射频.md",

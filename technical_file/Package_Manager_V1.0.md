@@ -25,11 +25,11 @@ apt download nginx
 
 下载后得到了nginx_1.24.0-2ubuntu7.6_amd64.deb这个软件包，如下所示：
 
-![](assets/Package%20manager/file-20260320124826626.png)
+![](assets/Package_Manager_V1.0/file-20260323102712123.png)
 
 依据下图可大致理解这个软件包名所包含的信息：
 
-![](assets/Package%20manager/file-20260320125641088.png)
+![](assets/Package_Manager_V1.0/file-20260323102712103%201.png)
 
 使用以下命令可以解压.deb包
 
@@ -39,7 +39,7 @@ ar x nginx_1.24.0-2ubuntu7.6_amd64.deb
 
 解开后我们对比发现，新增了下图中这三个文件
 
-![](assets/Package%20manager/file-20260320140345041.png)
+![](assets/Package_Manager_V1.0/file-20260323102712122.png)
 
 - debian-binary：记录了deb包的格式版本
 - control.tar.zst：包含了元数据和依赖信息以及控制脚本
@@ -49,7 +49,7 @@ ar x nginx_1.24.0-2ubuntu7.6_amd64.deb
 
 解压后我们可以看到里面有四个文件，如下图所示：
 
-![](assets/Package%20manager/file-20260320141855086.png)
+![](assets/Package_Manager_V1.0/file-20260323102712106%201.png)
 
 分别表示的是：
 - control：元数据和包的基础信息，相当于这个包的说明书和身份证。
@@ -59,13 +59,13 @@ ar x nginx_1.24.0-2ubuntu7.6_amd64.deb
 
 在这里重点要看control文件的内容，如下图所示;
 
-![](assets/Package%20manager/file-20260320142012268.png)
+![](assets/Package_Manager_V1.0/file-20260323102712106.png)
 
 里面写了包名、版本、支持的平台等一些简介的基础信息
 
 而另一个data.tar.zst包我们解压出来后是这个样子的。
 
-![](assets/Package%20manager/file-20260320142719127.png)
+![](assets/Package_Manager_V1.0/file-20260323102712105.png)
 
 只有一个usr文件夹，它里面就是nginx这个包运行时候的主程序了
 
@@ -108,7 +108,7 @@ curl https://www.baidu.com
 
 它给我生成了这样一段东西，如下如图所示：
 
-![](assets/Package%20manager/file-20260320171308149.png)
+![](assets/Package_Manager_V1.0/file-20260323102712104%201.png)
 
 我们先不管curl具体在做什么，我们再看看wget会怎么做，一样输入下面这段命令：
 
@@ -116,7 +116,7 @@ curl https://www.baidu.com
 wget http://www.baidu.com
 ```
 
-![](assets/Package%20manager/file-20260320171609585.png)
+![](assets/Package_Manager_V1.0/file-20260323102712104.png)
 
 我们发现它确实访问了百度官网，但在我本地保存了一个index.html文件，那这个文件中有什么呢，我们用下面这个命令来看一下。
 
@@ -124,7 +124,7 @@ wget http://www.baidu.com
 cat index.html
 ```
 
-![](assets/Package%20manager/file-20260320171839802.png)
+![](assets/Package_Manager_V1.0/file-20260323102712103.png)
 
 有没有发现它所保存的内容与curl命令输出的内容是一样的。
 
