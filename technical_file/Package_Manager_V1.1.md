@@ -132,12 +132,40 @@ winget show 包名
 | Composer |          PHP          | 全平台（Linux、Windows、macO）  |
 |  NuGet   |         .NET          |         Windows          |
 
-#### pip
+### pip
 
+Python 官方默认的编程语言级包管理器，是 Python 生态中使用最广泛的包管理工具，全平台（Windows、macOS、Linux）通用，负责 Python 第三方库、框架的安装与基础管理。
 
+#### 础操作讲解
+```
+pip install 包名
+```
 
+自动解析并安装该 Python 包的所有依赖，自动完成安装。
 
+```
+pip uninstall 包名
+```
 
+卸载已安装的 Python 包，自动清理相关数据文件。
+
+```
+pip install --upgrade 包名
+```
+
+将已安装的 Python 包升级到当前可用的最新版本。
+
+```
+pip search 关键词
+```
+
+在 PyPI 官方包仓库中，查找包含关键词的 Python 包，查看包名与简介。
+
+```
+pip list
+```
+
+列出当前 Python 环境中，所有已安装的 Python 包及其版本号。
 
 
 
