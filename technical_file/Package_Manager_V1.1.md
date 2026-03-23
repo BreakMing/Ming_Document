@@ -35,15 +35,16 @@ redhat系统包管理：**dnf yum**
 
 SUSE包管理：zypper
 
-|   包管器    |    可以支持的系统    |
-| :------: | :-----------: |
-| atp dpkg | Debian Ubuntu |
-|  pacman  |     arch      |
-|  emerge  |    gentoo     |
-|   pkg    |   slackware   |
-|  eopkg   |     solus     |
-| dnf yum  |    redhat     |
-|  zypper  |     SUSE      |
+|  包管器名称   |               可以支持的系统               |       跨平台使用       |
+| :------: | :---------------------------------: | :---------------: |
+| APT dpkg |      Debian、Ubuntu等Debian衍生版系统      | 仅支持Linux Dibian系统 |
+|  pacman  |      Linux Arch、Manjaro等衍生版系统       |  仅支持Linux Arch系统  |
+|  emerge  |               gentoo                |                   |
+|   pkg    | FreeBSD、NetBSD、OpenBSD、DragonFlyBSD |    仅支持BSD系列系统     |
+|  eopkg   |                solus                |                   |
+|   DNF    |   RHEL/CentOS/Fedora 体系下**旧版**系统    | 仅支持Linux RHEL旧版系统 |
+|   YUM    |   RHEL/CentOS/Fedora 体系下**新版**系统    | 仅支持Linux RHEL新版系统 |
+|  zypper  |                SUSE                 |                   |
 
 
 
