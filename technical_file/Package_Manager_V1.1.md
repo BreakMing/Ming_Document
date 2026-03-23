@@ -92,7 +92,13 @@ winget install 包名
 winget uninstall 包名
 ```
 
-调用软件自带的卸载脚本，但会保留
+调用软件自带的卸载脚本，但会保留用户配置和缓存数据等信息。
+
+```
+winget uninstall 包名 --purge
+```
+
+调用
 
 
 
