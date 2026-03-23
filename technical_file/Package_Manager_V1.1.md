@@ -61,7 +61,11 @@
 
 ## 网络请求下载工具
 
-
+| 工具名称  |         编程语言          |         可支持的系统平台         |
+| :---: | :-------------------: | :----------------------: |
+|  pip  |         Pyhon         | 全平台（Linux、Windows、macOS） |
+| Conda |    Pyton、R 、Julia     | 全平台（Linux、Windows、macO）  |
+|  npm  | JavaScript、TypeScript | 全平台（Linux、Windows、macO）  |
 
 
 
