@@ -98,7 +98,11 @@ winget uninstall 包名
 winget uninstall 包名 --purge
 ```
 
-调用
+完全卸载软件，同时清除用户配置、缓存等信息。
+
+```
+
+```
 
 
 
