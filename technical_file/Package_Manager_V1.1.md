@@ -6,7 +6,7 @@
 
 ![](assets/Package_Manager_V1.1/file-20260323105642282.png)
 
-我们可以
+我们可以看到，这个里有5行命令，每一个命令的开头都是pip install这个形式，install我们都知道什么意思，an'z
 
 
 
