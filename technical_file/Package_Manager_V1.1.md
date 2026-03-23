@@ -87,7 +87,7 @@ apt list
 
 
 
-### winget
+
 
 
 
