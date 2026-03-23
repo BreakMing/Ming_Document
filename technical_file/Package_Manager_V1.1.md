@@ -63,11 +63,14 @@
 
 网络数据传输工具，仅负责**网络文件 / 数据的传输下载**。
 
-| 工具名称  |         编程语言          |         可支持的系统平台         |
-| :---: | :-------------------: | :----------------------: |
-|  pip  |         Pyhon         | 全平台（Linux、Windows、macOS） |
-| Conda |    Pyton、R 、Julia     | 全平台（Linux、Windows、macO）  |
-|  npm  | JavaScript、TypeScript | 全平台（Linux、Windows、macO）  |
+| 工具名称  |         核心功能          |
+| :---: | :-------------------: |
+| curl  |         Pyhon         |
+| wget  |    Pyton、R 、Julia     |
+| aria2 | JavaScript、TypeScript |
+| axel  |                       |
+| rsync |                       |
+|  scp  |                       |
 
 
 
