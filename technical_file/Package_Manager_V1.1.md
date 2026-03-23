@@ -41,12 +41,25 @@
 
 ## 编程语言级包管理工具
 
+专门用于特定编程语言生态的工具，负责该语言的第三方库、框架、工具链的依赖解析、版本管理、安装 / 卸载 / 更新，以及项目构建、发布等开发流程，仅作用于**开发 / 应用运行环境**，不触碰操作系统核心组件。
 
+|  包管器名称   |         编程语言          |         可支持的系统平台         |
+| :------: | :-------------------: | :----------------------: |
+|   pip    |         Pyhon         | 全平台（Linux、Windows、macOS） |
+|  Conda   |    Pyton、R 、Julia     | 全平台（Linux、Windows、macO）  |
+|   npm    | JavaScript、TypeScript | 全平台（Linux、Windows、macO）  |
+|   yarn   | JavaScript、TypeScript | 全平台（Linux、Windows、macO）  |
+|   pnpm   | JavaScript、TypeScript | 全平台（Linux、Windows、macO）  |
+|  maven   |      Java、Kotlin      | 全平台（Linux、Windows、macO）  |
+|  Gradle  |      Java、Kotlin      | 全平台（Linux、Windows、macO）  |
+|  go mod  |          Go           | 全平台（Linux、Windows、macO）  |
+|  Cargo   |         Rust          | 全平台（Linux、Windows、macO）  |
+|   gem    |         Ruby          | 全平台（Linux、Windows、macO）  |
+| Bundler  |         Ruby          | 全平台（Linux、Windows、macO）  |
+| Composer |          PHP          | 全平台（Linux、Windows、macO）  |
+|  NuGet   |         .NET          |         Windows          |
 
-
-
-
-
+## 网络请求下载工具
 
 
 
