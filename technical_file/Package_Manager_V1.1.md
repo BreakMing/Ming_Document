@@ -78,7 +78,9 @@ apt list
 
 ### winget
 
+Windows原生的系统级包管理器，默认预装在Win10、Win11系统上，支持管理 exe、msi、msix、微软商店应用等全类型 Windows 软件。
 
+#### 基础操作讲解
 
 
 
