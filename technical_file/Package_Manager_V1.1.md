@@ -20,21 +20,6 @@
 
 ## 包管理工具大全
 
-
-debian系统包管理：dpkg  **apt**
-
-arch系统包管理：pacman
-
-gentoo系统包管理：emerge
-
-slackware包管理：pkg
-
-solus包管理：eopkg
-
-redhat系统包管理：**dnf yum**
-
-SUSE包管理：zypper
-
 |  包管器名称   |                        可以支持的系统                         |                       跨平台使用                        |
 | :------: | :----------------------------------------------------: | :------------------------------------------------: |
 | APT dpkg |               Debian、Ubuntu等Debian衍生版系统                |                 仅支持Linux Dibian系统                  |
@@ -48,7 +33,10 @@ SUSE包管理：zypper
 |   Nix    |                         NixOS                          |          支持全Linux发行版、macOS、Windows WSL2系统          |
 | Homebrew |               macOS、Linux、Windows（WSL2）                |          支持全Linux发行版、macOS、Windows WSL2系统          |
 |   Snap   |                  Ubuntu、绝大多数Linux发行版                   | Ubuntu 默认安装，支持绝大多数 Linux 发行版，Windows、macOS 提供实验性支持 |
-| Flatpak  |                                                        |                                                    |
+| Flatpak  |           Fedora、Ubuntu、Debian、Arch等Linux系统            |                   仅支持大多数Linux系统                    |
+|  winget  |                Windows10、Windows11以上版本                 |                    仅支持Windows系统                    |
+| MacPorts |                        macOS全系                         |                     仅支持macOS系统                     |
+|   Fink   |                        macOS全系                         |                     仅支持macOS系统                     |
 
 
 
