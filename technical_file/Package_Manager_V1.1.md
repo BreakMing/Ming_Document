@@ -205,8 +205,6 @@ conda uninstall 包名
 conda deactivate
 ```
 
-
-
 退出当前激活的虚拟环境，回到系统默认的基础环境。
 
 
