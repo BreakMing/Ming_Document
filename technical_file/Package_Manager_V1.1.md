@@ -101,12 +101,6 @@ winget uninstall 包名 --purge
 完全卸载软件，同时清除用户配置、缓存等信息。
 
 ```
-winget upgrade --all
-```
-
-升级所有被winget管理的软件到最新版本。
-
-```
 winget show 包名
 ```
 
