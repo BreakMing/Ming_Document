@@ -173,7 +173,29 @@ pip list
 
 #### conda
 
+面向 Python、R、Julia 等数据科学语言的跨平台编程语言级包与环境管理器，全平台（Windows、macOS、Linux）通用，可实现不同项目的环境隔离与依赖统一管理。
 
+#### 基础操作讲解
+
+conda create -n 环境名 python = 版本号
+
+创建一个指定 Python 版本的独立虚拟环境，实现项目间的依赖隔离。
+
+conda activate 环境名
+
+激活指定的虚拟环境，后续所有包操作均仅作用于该环境。
+
+conda install 包名
+
+在当前激活的环境中，自动解析并安装对应包的所有依赖，自动完成安装。
+
+conda uninstall 包名
+
+在当前激活的环境中，卸载已安装的包，清理相关安装文件。
+
+conda deactivate
+
+退出当前激活的虚拟环境，回到系统默认的基础环境。
 
 
 
