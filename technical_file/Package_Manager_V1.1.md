@@ -26,7 +26,7 @@
 | :------: | :----------------------------------------------------: | :------------------------------------------------: |
 | APT dpkg |               Debian、Ubuntu等Debian衍生版系统                |                 仅支持Linux Dibian系统                  |
 |  pacman  |                Linux Arch、Manjaro等衍生版系统                |                  仅支持Linux Arch系统                   |
-| Portage  |            Linux Gentoo、Funtoo、ChromeOS底层系统            |                 仅支持Linux Gentoo系统                  |
+| Portage  |            Linux Gentoo、Funtoo、ChromeOS底层系统            |              仅支持Linux Gentooe和BSD系列系统              |
 |   pkg    |          FreeBSD、NetBSD、OpenBSD、DragonFlyBSD           |                     仅支持BSD系列系统                     |
 |   DNF    |             RHEL/CentOS/Fedora 体系下**旧版**系统             |                 仅支持Linux RHEL旧版系统                  |
 |   YUM    |             RHEL/CentOS/Fedora 体系下**新版**系统             |                 仅支持Linux RHEL新版系统                  |
