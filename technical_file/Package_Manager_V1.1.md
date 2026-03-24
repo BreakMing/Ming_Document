@@ -124,7 +124,7 @@ winget show 包名
 |   yarn   | JavaScript、TypeScript | 全平台（Linux、Windows、macO）  |
 |   pnpm   | JavaScript、TypeScript | 全平台（Linux、Windows、macO）  |
 |  maven   |      Java、Kotlin      | 全平台（Linux、Windows、macO）  |
-|  Gradle  |      Java、Kotlin      | 全平台（Linux、Windows、macO）  |
+|  Gradle  |   Java、Kotlin、C/C++   | 全平台（Linux、Windows、macO）  |
 |  go mod  |          Go           | 全平台（Linux、Windows、macO）  |
 |  Cargo   |         Rust          | 全平台（Linux、Windows、macO）  |
 |   gem    |         Ruby          | 全平台（Linux、Windows、macO）  |
