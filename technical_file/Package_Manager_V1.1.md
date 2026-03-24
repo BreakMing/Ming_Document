@@ -113,17 +113,17 @@ winget show 包名
 |  包管器名称   |         编程语言          |         可支持的系统平台         |
 | :------: | :-------------------: | :----------------------: |
 |   pip    |         Pyhon         | 全平台（Linux、Windows、macOS） |
-|  Conda   |    Pyton、R 、Julia     | 全平台（Linux、Windows、macO）  |
-|   npm    | JavaScript、TypeScript | 全平台（Linux、Windows、macO）  |
-|   yarn   | JavaScript、TypeScript | 全平台（Linux、Windows、macO）  |
-|   pnpm   | JavaScript、TypeScript | 全平台（Linux、Windows、macO）  |
-|  maven   |  Java、Kotlin、C#、Ruby  | 全平台（Linux、Windows、macO）  |
-|  Gradle  |   Java、Kotlin、C/C++   | 全平台（Linux、Windows、macO）  |
-|  go mod  |          Go           | 全平台（Linux、Windows、macO）  |
-|  Cargo   |         Rust          | 全平台（Linux、Windows、macO）  |
-|   gem    |         Ruby          | 全平台（Linux、Windows、macO）  |
-| Bundler  |         Ruby          | 全平台（Linux、Windows、macO）  |
-| Composer |          PHP          | 全平台（Linux、Windows、macO）  |
+|  Conda   |    Pyton、R 、Julia     | 全平台（Linux、Windows、macOS） |
+|   npm    | JavaScript、TypeScript | 全平台（Linux、Windows、macOS） |
+|   yarn   | JavaScript、TypeScript | 全平台（Linux、Windows、macOS） |
+|   pnpm   | JavaScript、TypeScript | 全平台（Linux、Windows、macOS） |
+|  maven   |  Java、Kotlin、C#、Ruby  | 全平台（Linux、Windows、macOS） |
+|  Gradle  |   Java、Kotlin、C/C++   | 全平台（Linux、Windows、macOS） |
+|  go mod  |          Go           | 全平台（Linux、Windows、macOS） |
+|  Cargo   |         Rust          | 全平台（Linux、Windows、macOS） |
+|   gem    |         Ruby          | 全平台（Linux、Windows、macOS） |
+| Bundler  |         Ruby          | 全平台（Linux、Windows、macOS） |
+| Composer |          PHP          | 全平台（Linux、Windows、macOS） |
 |  NuGet   |         .NET          |         Windows          |
 
 ### pip
