@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,10 +213,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d40190646e96daeb",
+  "active": "e1bdf88a503e11de",
   "lastOpenFiles": [
-    "technical_file/MPU6050.md",
     "technical_file/Linux Learning Path.md",
+    "technical_file/MPU6050.md",
     "technical_file/Package_Manager_V1.1.md",
     "technical_file/Package_Manager_V1.0.md",
     "technical_file/assets/Package_Manager_V1.1/file-20260323105642282.png",
