@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "2c4e16c84ad41b31",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.7"
+            }
+          },
+          {
             "id": "b236cbccef6a3978",
             "type": "leaf",
             "state": {
@@ -49,7 +61,8 @@
               "title": "Package_Manager_V1.1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,7 +226,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd82878848b3e9d2",
+  "active": "2c4e16c84ad41b31",
   "lastOpenFiles": [
     "technical_file/Package_Manager_V1.1.md",
     "technical_file/Package_Manager_V1.0.md",
