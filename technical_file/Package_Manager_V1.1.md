@@ -75,7 +75,7 @@ apt download nginx
 
 ### APT
 
-Dibian、Ubuntu等Debian官方默认的系统级包管理器，基于dpkg包工具构建，是Linux生态中使用最广泛的系统级包管理器。
+Dibian、Ubuntu等Debian官方默认的系统级包管理器，基于dpkg包工具构建。
 
 #### 基础操作讲解
 
