@@ -8,6 +8,25 @@
 
 
 
+## 软件包的组成
+
+我们以Ubuntu的一个常用的niginx这个软件包为例。
+
+这个包的功能可以理解为是Ubuntu服务器环境中主流的一个Web服务工具。
+
+我们先使用下面这个命令来下载nginx的软件包。
+
+```
+apt download nginx
+```
+
+下载后得到了nginx_1.24.0-2ubuntu7.6_amd64.deb这个软件包，如下所示：
+
+![](assets/Package_Manager_V1.0/file-20260323102712123.png)
+
+依据下图可大致理解这个软件包名所包含的信息：
+
+![](assets/Package_Manager_V1.0/file-20260323102712103%201.png)
 
 
 
