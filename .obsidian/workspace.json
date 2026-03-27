@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technical_file/Package_Manager_V1.0.md",
+                "file": "technical_file/Package_Manager_V1.1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Package_Manager_V1.0"
+              "title": "Package_Manager_V1.1"
             }
           },
           {
@@ -215,9 +215,9 @@
   },
   "active": "12211cfa2597a728",
   "lastOpenFiles": [
-    "technical_file/Linux_Learning_Path.md",
-    "technical_file/Package_Manager_V1.1.md",
     "technical_file/Package_Manager_V1.0.md",
+    "technical_file/Package_Manager_V1.1.md",
+    "technical_file/Linux_Learning_Path.md",
     "technical_file/RF射频.md",
     "technical_file/Reinforcement learning（RL）.md",
     "technical_file/MPU6050.md",
