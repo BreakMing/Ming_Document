@@ -26,11 +26,6 @@ apt download nginx
 
 ![](assets/Package_Manager_V1.0/file-20260323102712103%201.png)
 
-
-
-
-
-
 ## 包管理器
 
 我们在复刻github上的项目的时候会看到非常多的命令行操作，刚开始的时候我们会一脸懵逼，它们都是做什么的呢。
