@@ -161,9 +161,9 @@ winget show 包名
 
 ### pip
 
-Python 官方默认的编程语言级包管理器，是 Python 生态中使用最广泛的包管理工具，全平台（Windows、macOS、Linux）通用，负责 Python 第三方库、框架的安装与基础管理。
+Python 官方默认的编程语言级包管理器，负责 Python 第三方库、框架的安装与基础的软件管理。
 
-#### 础操作讲解
+#### 基础操作讲解
 ```
 pip install 包名
 ```
@@ -200,7 +200,7 @@ pip list
 
 ### conda
 
-面向 Python、R、Julia 等数据科学语言的跨平台编程语言级包与环境管理器，全平台（Windows、macOS、Linux）通用，可实现不同项目的环境隔离与依赖统一管理。
+Python、R、Julia 等语言的编程语言级包，可实现不同项目的环境隔离与依赖统一管理。
 
 #### 基础操作讲解
 
