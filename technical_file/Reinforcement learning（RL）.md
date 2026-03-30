@@ -12,11 +12,11 @@
 
 - 智能体（Agent）
 - 环境 (Environment)
-- 状态 (State, s)
-- 动作 (Action, a)
-- 奖励 (Reward, r)
-- 策略 (Policy, π)
-- 回报 (Return, G)
+- 状态 (State,)
+- 动作 (Action)
+- 奖励 (Reward)
+- 策略 (Policy)
+- 回报 (Return)
 - 价值函数 (Value Function)
 - 马尔可夫决策过程 (MDP)
 
