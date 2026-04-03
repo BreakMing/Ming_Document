@@ -59,7 +59,20 @@ CANOPEN网络结构
 ![](assets/CANOPEN/file-20260403113024825.png)
 
 
+## SDO通讯
 
+发送低优先级的对象，比如修改pid参数，修改PDO配置参数
+
+
+
+
+
+
+
+
+
+
+## PDO通讯 
 
 
 
