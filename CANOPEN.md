@@ -48,7 +48,7 @@ CANOPEN网络结构
 ![](assets/CANOPEN/file-20260403112244087.png)
 
 
-
+## 状态机
 
 
 
