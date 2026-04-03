@@ -42,10 +42,10 @@ CANOPEN网络结构
 ![](assets/CANOPEN/file-20260403111931619.png)
 
 
+![](assets/CANOPEN/file-20260403112231696.png)
 
 
-
-
+![](assets/CANOPEN/file-20260403112244087.png)
 
 
 
