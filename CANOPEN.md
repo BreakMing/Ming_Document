@@ -50,10 +50,12 @@ CANOPEN网络结构
 
 ## 状态机
 
+![](assets/CANOPEN/file-20260403113048579.png)
 
 
+通过网络管理NMT切换
 
-
+![](assets/CANOPEN/file-20260403113024825.png)
 
 
 
