@@ -41,6 +41,7 @@ CANOPEN网络结构
 
 ![](assets/CANOPEN/file-20260403111931619.png)
 
+报文类型
 
 ![](assets/CANOPEN/file-20260403112231696.png)
 
