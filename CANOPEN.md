@@ -64,7 +64,7 @@ CANOPEN网络结构
 发送低优先级的对象，比如修改pid参数，修改PDO配置参数
 
 
-
+![](assets/CANOPEN/file-20260403143701175.png)
 
 
 
