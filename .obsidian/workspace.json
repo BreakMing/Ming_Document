@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "CAN_脚本.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "CAN_脚本"
             }
           }
         ],
@@ -202,7 +202,7 @@
   "active": "276dbad51a1f9beb",
   "lastOpenFiles": [
     "technical_file/CANOPEN.md",
-    "未命名.md",
+    "CAN_脚本.md",
     "未命名",
     "technical_file/CAN_格式.md",
     "technical_file/assets/CANOPEN",
