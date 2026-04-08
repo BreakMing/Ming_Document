@@ -8,26 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dd82878848b3e9d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "technical_file/MPU6050.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MPU6050"
-            }
-          },
-          {
             "id": "b051ec142dbcc3fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CANOPEN.md",
+                "file": "technical_file/CANOPEN.md",
                 "mode": "source",
                 "source": false
               },
@@ -35,8 +21,7 @@
               "title": "CANOPEN"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -202,22 +186,23 @@
   },
   "active": "b051ec142dbcc3fa",
   "lastOpenFiles": [
-    "assets/CANOPEN/file-20260403143701175.png",
-    "assets/CANOPEN/file-20260403113048579.png",
-    "assets/CANOPEN/file-20260403113024825.png",
-    "assets/CANOPEN/file-20260403112954792.png",
-    "assets/CANOPEN/file-20260403112244087.png",
-    "assets/CANOPEN/file-20260403112231696.png",
-    "assets/CANOPEN/file-20260403111931619.png",
-    "assets/CANOPEN/file-20260403111024479.png",
-    "assets/CANOPEN/file-20260403110848750.png",
+    "technical_file/CAN_格式.md",
+    "technical_file/CANOPEN.md",
+    "technical_file/assets/CANOPEN",
+    "technical_file/MPU6050.md",
+    "technical_file/assets/CANOPEN/file-20260408112034293.png",
+    "technical_file/assets/CANOPEN/file-20260408112034295.png",
+    "technical_file/assets/CANOPEN/file-20260408112034298.png",
+    "technical_file/assets/CANOPEN/file-20260408112034305.png",
+    "technical_file/assets/CANOPEN/file-20260408112034307.png",
+    "technical_file/assets/CANOPEN/file-20260408112034309.png",
+    "technical_file/assets/CANOPEN/file-20260408112034311.png",
+    "technical_file/assets/CANOPEN/file-20260408112034312.png",
+    "technical_file/assets/CANOPEN/file-20260408112034297.png",
     "assets/CANOPEN",
     "assets",
-    "CANOPEN.md",
-    "technical_file/MPU6050.md",
     "technical_file/Package_Manager_V1.0.md",
     "technical_file/Package_Manager_V1.1.md",
-    "CAN_格式.md",
     "technical_file/Reinforcement learning（RL）.md",
     "technical_file/CAN.md",
     "technical_file/assets/Package_Manager_V1.1/file-20260327121744963.png",
@@ -226,7 +211,6 @@
     "technical_file/NFC.md",
     "technical_file/有意思的视频选题.md",
     "technical_file/RF射频.md",
-    "technical_file/assets/Package_Manager_V1.1/file-20260323105642282.png",
     "technical_file/assets/Package_Manager_V1.1",
     "technical_file/assets/Package_Manager_V1.0",
     "technical_file/assets/Package manager",
@@ -236,7 +220,6 @@
     "日记",
     "可发布的文档/assets/远程遥控开关是怎样工作的/3f3e954b53bdacca8e7b0d3b9f2820bc.mp4",
     "可发布的文档/assets/远程遥控开关是怎样工作的",
-    "可发布的文档/assets",
     "technical_file/WIFI和蓝牙.md",
     "Break_M/日记/日记.md",
     "Break_M/可发布的文档/远程遥控开关是怎样工作的.md",

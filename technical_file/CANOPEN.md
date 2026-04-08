@@ -4,12 +4,12 @@ CANOPEN免许可可免费使用
 
 CANOPEN网络结构
 
-![](assets/CANOPEN/file-20260403110848750.png)
+![](assets/CANOPEN/file-20260408112034297.png)
 
 
 ## 对象字典
 
-![](assets/CANOPEN/file-20260403111024479.png)
+![](assets/CANOPEN/file-20260408112034312.png)
 
 主要关注**通讯对象子协议区域、制造商特定子协议区、标准化设备子协议区**。
 
@@ -39,24 +39,24 @@ CANOPEN网络结构
 
 ## 通讯标识符
 
-![](assets/CANOPEN/file-20260403111931619.png)
+![](assets/CANOPEN/file-20260408112034311.png)
 
 报文类型
 
-![](assets/CANOPEN/file-20260403112231696.png)
+![](assets/CANOPEN/file-20260408112034309.png)
 
 
-![](assets/CANOPEN/file-20260403112244087.png)
+![](assets/CANOPEN/file-20260408112034307.png)
 
 
 ## 状态机
 
-![](assets/CANOPEN/file-20260403113048579.png)
+![](assets/CANOPEN/file-20260408112034295.png)
 
 
 通过网络管理NMT切换
 
-![](assets/CANOPEN/file-20260403113024825.png)
+![](assets/CANOPEN/file-20260408112034298.png)
 
 
 ## SDO通讯     服务数据对象
@@ -64,7 +64,7 @@ CANOPEN网络结构
 发送低优先级的对象，比如修改pid参数，修改PDO配置参数
 
 
-![](assets/CANOPEN/file-20260403143701175.png)
+![](assets/CANOPEN/file-20260408112034293.png)
 
 
 
