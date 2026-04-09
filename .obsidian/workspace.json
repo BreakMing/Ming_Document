@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technical_file/CANOPEN.md",
+                "file": "CAN_脚本.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CANOPEN"
+              "title": "CAN_脚本"
             }
           }
         ]
@@ -186,8 +186,8 @@
   },
   "active": "b051ec142dbcc3fa",
   "lastOpenFiles": [
-    "CAN_脚本.md",
     "technical_file/CANOPEN.md",
+    "CAN_脚本.md",
     "technical_file/CAN.md",
     "assets/CAN_脚本/file-20260409105142939.png",
     "assets/CAN_脚本/file-20260409105126510.png",
