@@ -28,9 +28,14 @@ CANOPEN网络结构
 
 ## 通讯标识符
 
+![](assets/CANOPEN/file-20260408112034311.png)
+
 报文类型
 
 ![](assets/CANOPEN/file-20260408112034309.png)
+
+
+![](assets/CANOPEN/file-20260408112034307.png)
 
 
 ## 状态机
