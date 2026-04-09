@@ -29,8 +29,11 @@ CAN 230 4 01 02 03 04
 
 ### PP系列电机协议解读（CAN）
 
+![](assets/CAN_脚本/file-20260409103733214.png)
 
-
+- CAN_ID:基本ID0x01~0xff可用，0x00为广播
+- DLC：CAN数据帧长度
+- CMD:
 
 
 ### CAN和CANOPEN的区别
