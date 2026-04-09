@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CAN_脚本.md",
+                "file": "technical_file/CANOPEN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CAN_脚本"
+              "title": "CANOPEN"
             }
           }
         ]
@@ -186,20 +186,19 @@
   },
   "active": "b051ec142dbcc3fa",
   "lastOpenFiles": [
+    "CAN_脚本.md",
     "assets/CAN_脚本/file-20260409135124236.png",
     "assets/CAN_脚本/file-20260409134315110.png",
     "assets/CAN_脚本/file-20260409134239880.png",
     "assets/CAN_脚本/file-20260409133526890.png",
     "assets/CAN_脚本/file-20260409133422471.png",
     "technical_file/CANOPEN.md",
-    "CAN_脚本.md",
     "technical_file/CAN.md",
     "assets/CAN_脚本/file-20260409105142939.png",
     "assets/CAN_脚本/file-20260409105126510.png",
     "assets/CAN_脚本/file-20260409103733214.png",
     "assets/CAN_脚本/file-20260409102554632.png",
     "assets/CAN_脚本/file-20260408182845708.png",
-    "assets/CAN_脚本/file-20260408180018965.png",
     "assets/CAN_脚本",
     "assets",
     "未命名",
