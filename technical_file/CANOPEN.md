@@ -43,7 +43,7 @@ CANOPEN网络结构
 ![](assets/CANOPEN/file-20260408112034295.png)
 
 
-通过网络管理NMT切换
+通过网络管理NMT切换状态
 
 ![](assets/CANOPEN/file-20260408112034298.png)
 
@@ -56,15 +56,9 @@ CANOPEN网络结构
 ![](assets/CANOPEN/file-20260408112034293.png)
 
 
-
-
-
-
-
 ## PDO通讯     过程数据对象
 
-用来传输实时生成的数据，
-
+用来传输实时生成的数据，需要地址映射，没详细研究
 
 
 
