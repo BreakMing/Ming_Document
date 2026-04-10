@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technical_file/CAN_脚本.md",
+                "file": "technical_file/CANOPEN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CAN_脚本"
+              "title": "CANOPEN"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5626b2de3d21bacc",
+  "active": "b051ec142dbcc3fa",
   "lastOpenFiles": [
     "technical_file/CANOPEN.md",
     "technical_file/CAN_脚本.md",
