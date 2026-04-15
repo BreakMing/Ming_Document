@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "CAN_脚本"
             }
-          },
-          {
-            "id": "c43a0905d57a8e9a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "technical_file/assets/CAN_脚本/file-20260414162858635.png"
-              },
-              "icon": "lucide-image",
-              "title": "file-20260414162858635"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,80 +196,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "f2a30d1bfb92e051",
-    "type": "floating",
-    "children": [
-      {
-        "id": "6d57c8c60a80fb68",
-        "type": "window",
-        "children": [
-          {
-            "id": "cc46d342c89eed98",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5626b2de3d21bacc",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "technical_file/assets/CAN_脚本/file-20260409161539853.png"
-                  },
-                  "icon": "lucide-image",
-                  "title": "file-20260409161539853"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 1280,
-        "height": 1392,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
-        "id": "ab0a2e147738b3e6",
-        "type": "window",
-        "children": [
-          {
-            "id": "555cdf47d5022e08",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d503843cb0edca6f",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "technical_file/assets/CAN_脚本/file-20260414162858619.png"
-                  },
-                  "icon": "lucide-image",
-                  "title": "file-20260414162858619"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 1280,
-        "height": 1392,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "c43a0905d57a8e9a",
+  "active": "a77fd2e78205ef25",
   "lastOpenFiles": [
-    "technical_file/CAN_脚本.md",
-    "technical_file/assets/CAN_脚本/file-20260414162858619.png",
-    "technical_file/assets/CAN_脚本/file-20260414162858635.png",
     "technical_file/assets/CAN_脚本/file-20260409161539853.png",
+    "technical_file/CAN_脚本.md",
+    "technical_file/assets/CAN_脚本/file-20260414162858635.png",
+    "technical_file/assets/CAN_脚本/file-20260414162858619.png",
     "technical_file/Reinforcement learning（RL）.md",
     "technical_file/assets/CAN_脚本/file-20260409161539852.png",
     "technical_file/assets/CAN_脚本/file-20260409161539850 1.png",
