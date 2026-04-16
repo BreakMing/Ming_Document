@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -239,13 +238,13 @@
   "lastOpenFiles": [
     "technical_file/Package_Manager_V1.0.md",
     "technical_file/Package_Manager_V1.1.md",
+    "technical_file/Reinforcement learning（RL）.md",
+    "technical_file/CAN_脚本.md",
     "technical_file/assets/Package_Manager_V1.1/file-20260416115641028.png",
     "technical_file/assets/Package_Manager_V1.1/file-20260416115410656.png",
     "technical_file/assets/Package_Manager_V1.1/file-20260416111258735.png",
     "technical_file/assets/Package_Manager_V1.1/file-20260416105716045.png",
     "technical_file/Linux_Learning_Path.md",
-    "technical_file/Reinforcement learning（RL）.md",
-    "technical_file/CAN_脚本.md",
     "technical_file/assets/CAN_脚本/file-20260409161539853.png",
     "technical_file/assets/CAN_脚本/file-20260414162858635.png",
     "technical_file/assets/CAN_脚本/file-20260414162858619.png",
