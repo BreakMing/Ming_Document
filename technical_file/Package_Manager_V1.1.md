@@ -54,7 +54,7 @@ apt download nginx
 
 我们可以看到，开头这个命令是 `pip install speedtest-cli` 。`install` 为安装的意思，`pip` 则是一个包管理器的名字，这是在用包管理器安装 `install` 后面的内容。
 
-
+Github小节则是使用git工具拉取对应地址的源码。
 
 
 那么包管理器是什么呢。
