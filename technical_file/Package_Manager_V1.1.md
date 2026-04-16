@@ -32,7 +32,7 @@ apt download nginx
 
 在windows上我们可以去对应软件官网，或者应用商店上
 
-
+而在Linux上我们其实也是可以去软件商店，或者官网下载Linux版本的安装包的。
 
 
 
