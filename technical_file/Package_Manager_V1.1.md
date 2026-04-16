@@ -56,7 +56,7 @@ apt download nginx
 
 Github小节则是使用git工具拉取对应地址的源码。
 
-
+而在Just download小节，虽然开头命令不同，一个用的是wget，另一个是curl，但都是在做相同的事情，从GitHub上下载一个可执行的脚本文件，并给这个文件可执行的权限。
 
 那么包管理器是什么呢。
 
