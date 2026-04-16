@@ -4,11 +4,11 @@
 
 强化学习是Agent在与环境的互动当中为了达成一个目标而进行的学习过程
 
-第一层     Agent    智能体     Environment   环境     Goal  目标
+第一层：基本元素     Agent    智能体     Environment   环境     Goal  目标
 
-第二层     State     状态     Action     行动     Reward     奖励
+第二层：主要元素     State     状态     Action     行动     Reward     奖励
 
-第三层     Policy     策略     Value     价值
+第三层：核心元素     Policy     策略     Value     价值
 
 
 
