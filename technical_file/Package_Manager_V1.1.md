@@ -32,7 +32,7 @@ apt download nginx
 
 在windows上我们可以去对应软件官网，或者应用商店上下载软件。
 
-而在Linux上我们其实也是可以去软件商店，或者官网下载Linux版本的安装包的。
+而在Linux上我们其实也是可以去软件商店，或者官网下载Linux版本的安装包的，如下图所示。
 
 ![](assets/Package_Manager_V1.1/file-20260416111258735.png)
 
@@ -48,11 +48,11 @@ apt download nginx
 
 当我们在复刻github上的项目的时候会看到非常多的命令行操作，刚开始的时候我们会一脸懵逼，它们都是做什么的呢。
 
-我们先来找一个项目作为实例，先来做一个粗浅的了解。
+我们先来找一个项目作为实例，做一个粗浅的了解。
 
 ![](assets/Package_Manager_V1.1/file-20260416105716045.png)
 
-我们可以看到，开头这个命令是 `pip install speedtest-cli` 。`install` 为安装的意思，`pip` 则是一个包管理器的名字，这是在用包管理器安装 `install` 后面的内容。
+我们可以看到，开头这个命令是 `pip install speedtest-cli` 。`install` 为安装的意思，`pip` 则是一个包管理器的名字，这是在用包管理器安装 `install` 后面的软件包。
 
 `Github` 小节则是使用 `git` 工具拉取对应地址的源码。
 
