@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -181,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,10 +233,10 @@
       }
     ]
   },
-  "active": "a77fd2e78205ef25",
+  "active": "7c55446b10c1d6a3",
   "lastOpenFiles": [
-    "technical_file/Package_Manager_V1.0.md",
     "technical_file/Package_Manager_V1.1.md",
+    "technical_file/Package_Manager_V1.0.md",
     "technical_file/Reinforcement learning（RL）.md",
     "technical_file/CAN_脚本.md",
     "technical_file/assets/Package_Manager_V1.1/file-20260416115641028.png",
