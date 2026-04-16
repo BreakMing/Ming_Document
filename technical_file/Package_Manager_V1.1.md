@@ -8,7 +8,7 @@
 
 这个就牵扯到不同的系统、不同的编程语言的问题了，比如系统级的.apk（Android）、.exe/.msi（Windows）、.deb（Debian/Ubuntu）；编程语言级的.whl（Python）、.npm（Node.js）
 
-### 软件包是什么
+### 软件包的组成
 
 我们以Ubuntu的一个常用的niginx这个软件包为例。
 
