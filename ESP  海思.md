@@ -23,8 +23,8 @@ IO5
 
 串口
 
-IO43
-IO44
+TX     IO43
+RX     IO44
 
 
 
