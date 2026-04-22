@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ESP  海思.md",
+                "file": "technical_file/CAN_脚本.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESP  海思"
+              "title": "CAN_脚本"
             }
           }
         ],
@@ -119,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e62638d77916e893",
@@ -238,8 +239,9 @@
   },
   "active": "4a45b95b44d4979d",
   "lastOpenFiles": [
-    "technical_file/assets/CAN_脚本/file-20260409161539853.png",
+    "指令合集.md",
     "ESP  海思.md",
+    "technical_file/assets/CAN_脚本/file-20260409161539853.png",
     "technical_file/CAN_脚本.md",
     "technical_file/CANOPEN.md",
     "未命名.md",
@@ -260,7 +262,6 @@
     "technical_file/assets/CAN_脚本/file-20260414162858619.png",
     "technical_file/assets/CAN_脚本/file-20260409161539852.png",
     "technical_file/有意思的视频选题.md",
-    "指令合集.md",
     "未命名.base",
     "未命名 2.base",
     "未命名 1.base",
