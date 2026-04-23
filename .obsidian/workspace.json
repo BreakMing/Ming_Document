@@ -35,7 +35,8 @@
               "title": "Gyroscope"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,10 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a77fd2e78205ef25",
+  "active": "95ff987df578b908",
   "lastOpenFiles": [
-    "technical_file/Gyroscope.md",
     "technical_file/MPU6050.md",
+    "technical_file/Gyroscope.md",
     "technical_file/Reinforcement learning（RL）.md",
     "technical_file/CAN_脚本.md",
     "technical_file/assets/CAN_脚本/file-20260409161539853.png",
