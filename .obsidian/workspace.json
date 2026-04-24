@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "指令合集.md",
+                "file": "technical_file/CANOPEN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "指令合集"
+              "title": "CANOPEN"
             }
           }
         ]
@@ -198,14 +198,14 @@
   "active": "a77fd2e78205ef25",
   "lastOpenFiles": [
     "technical_file/CAN_脚本.md",
+    "technical_file/CAN.md",
+    "指令合集.md",
     "technical_file/Gyroscope.md",
     "technical_file/MPU6050.md",
     "technical_file/OLED.md",
     "technical_file/ESP  海思.md",
-    "technical_file/CAN.md",
     "technical_file/Reinforcement learning（RL）.md",
     "technical_file/assets/CAN_脚本/file-20260409161539853.png",
-    "指令合集.md",
     "technical_file/CANOPEN.md",
     "未命名.md",
     "assets/未命名/file-20260417142240887.png",
