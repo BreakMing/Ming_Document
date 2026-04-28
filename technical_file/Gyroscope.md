@@ -69,7 +69,6 @@
 
 ![](assets/Gyroscope/file-20260428160901510.png)
 
-	a为滤波系数
-	
+![](assets/Gyroscope/file-20260428162214776.png)
 
 
