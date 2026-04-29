@@ -84,4 +84,12 @@
 
 
 
+## 附录
+
+[扩展卡尔曼、Madgwick、Mahony对比](https://web.cs.ndsu.nodak.edu/~siludwig/Publish/papers/ICUAS2018.pdf)
+
+
+
+
+
 
