@@ -49,7 +49,13 @@
 
 ### 陀螺仪
 
-#### 偏执误差
+#### 偏置误差
+
+陀螺仪本体在静止时采集到的误差。
+
+##### 如何处理
+
+通过上机后连续采样300-500个数据进行平均计算得出平均误差值，在每一次采集时都减去这个值就可以得到真实的数据了
 
 #### 敏感度误差
 
@@ -94,6 +100,7 @@
 
 [扩展卡尔曼、Madgwick、Mahony对比](https://web.cs.ndsu.nodak.edu/~siludwig/Publish/papers/ICUAS2018.pdf)
 
+[敏感度误差测量项目](https://github.com/xioTechnologies/Calibration-Cube)
 
 
 
