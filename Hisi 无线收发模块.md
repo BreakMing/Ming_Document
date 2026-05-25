@@ -31,6 +31,14 @@ Hisi 无线收发模块是一个基于BS21e的案例，发送模块可以外部�
 
 ![](assets/Hisi%20无线收发模块/file-20260525123451068.png)
 
-4、选择固件，并勾选“Auto burn”和“Auto disconnect”获取
+4、选择固件，并勾选“Auto burn”和“Auto disconnect”
+
+![](assets/Hisi%20无线收发模块/file-20260525123843382.png)
+
+5、点击Connect并复位
+
+
+
+
 
 
