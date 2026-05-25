@@ -17,34 +17,28 @@ Hisi 无线收发模块是一个基于BS21e的案例，发送模块可以外部�
 
 ### 硬件测试注意事项
 
-- 先焊接电源等外围器件，测试输出是否正常，再焊接主控芯片。
-- 射频部分可先焊接0Ω电阻测试天线是否可用。
-- 
-
+- 先焊接电源等外围器件，测试输出是否正常，再焊接主控芯片
+- 射频部分可先焊接0Ω电阻测试天线是否可用
 
 ## 固件烧录
 
 1、下载烧录工具
 
 - 下载[BurnTool](https://gitee.com/hihope_iot/near-link/blob/master/tools/BurnTool_5.0.39.rar)工具
-- 下载完成后打开BurnTool.exe文件
+- 下载完成后打开BurnTool压缩包
 
-2、点击“Setting”，波特率设置为750000
+2、进入BurnTool，点击“Setting”，波特率设置为750000。
 
 ![](assets/Hisi%20无线收发模块/file-20260525123345695.png)
 
-3、选择端口
+3、选择端口，不同芯片，不同电脑端口号不同，找到对应的端口号。
 
 ![](assets/Hisi%20无线收发模块/file-20260525123451068.png)
 
-4、选择固件，并勾选“Auto burn”和“Auto disconnect”
+4、选择固件，并勾选“Auto burn”和“Auto disconnect”。
 
 ![](assets/Hisi%20无线收发模块/file-20260525123843382.png)
 
-5、点击Connect并复位pcb板，等待烧录结束
+5、点击Connect并复位pcb板，等待烧录结束。
 
 ![](assets/Hisi%20无线收发模块/file-20260525123949382.png)
-
-
-
-
