@@ -18,4 +18,19 @@ Hisi 无线收发模块是一个基于BS21e的案例，发送模块可以外部�
 
 ## 固件烧录
 
+1、下载烧录工具
+
+- 下载[BurnTool](https://gitee.com/hihope_iot/near-link/blob/master/tools/BurnTool_5.0.39.rar)工具
+- 下载完成后打开BurnTool.exe文件
+
+2、点击“Setting”，波特率设置为750000
+
+![](assets/Hisi%20无线收发模块/file-20260525123345695.png)
+
+3、选择端口
+
+![](assets/Hisi%20无线收发模块/file-20260525123451068.png)
+
+4、
+
 
