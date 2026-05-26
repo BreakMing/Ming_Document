@@ -29,6 +29,26 @@ Hisi 无线收发模块是一个基于BS21e的案例，模组分为发送和接�
 麦克风：建议选用型号为**MSM261D4030H1CPM**，测试过程中暂未出现问题。
 UART接口：使用任意可UART通信的单片机即可，**波特率**默认配置为**115200**。
 
+
+## 固件烧录
+
+1、下载烧录工具
+
+- 下载[BurnTool](https://gitee.com/hihope_iot/near-link/blob/master/tools/BurnTool_5.0.39.rar)工具
+- 下载完成后打开BurnTool压缩包
+
+2、进入BurnTool，点击“Setting”，波特率设置为750000。
+
+![](assets/Hisi%20无线收发模块/file-20260525123345695.png)
+
+3、选择端口，选择固件，并勾选“Auto burn”和“Auto disconnect”。
+
+![](assets/Hisi%20无线收发模块/file-20260525123843382.png)
+
+4、点击Connect并复位芯片，等待烧录结束。
+
+![](assets/Hisi%20无线收发模块/file-20260525123949382.png)
+
 ## PC端音频设备配置
 
 先将接收模块插入PC的任意USB-A口。
