@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "technical_file/Hisi无线通信模组使用说明.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -197,8 +197,9 @@
   },
   "active": "314406e3ecf84beb",
   "lastOpenFiles": [
-    "technical_file/Gyroscope.md",
+    "Hisi 无线收发模块.md",
     "technical_file/Hisi无线通信模组使用说明.md",
+    "technical_file/Gyroscope.md",
     "technical_file/assets/Hisi无线通信模组使用说明/file-20260526140804604.png",
     "technical_file/assets/Hisi无线通信模组使用说明/file-20260526130147605.png",
     "technical_file/assets/Hisi无线通信模组使用说明/file-20260526130046385.png",
@@ -211,7 +212,6 @@
     "technical_file/assets/Hisi无线通信模组使用说明/file-20260526124928520.png",
     "technical_file/assets/Hisi无线通信模组使用说明",
     "technical_file/assets/Hisi模块使用说明",
-    "Hisi 无线收发模块.md",
     "Hisi_案例素材的问题.md",
     "assets/Hisi 无线收发模块",
     "指令合集.md",
