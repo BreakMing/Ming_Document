@@ -20,8 +20,6 @@ UART接口：使用任意可UART通信的单片机即可，**波特率**默认�
 
 ### 硬件连接
 
-
-
 1、下载烧录工具
 
 - 下载[BurnTool](https://gitee.com/hihope_iot/near-link/blob/master/tools/BurnTool_5.0.39.rar)工具
