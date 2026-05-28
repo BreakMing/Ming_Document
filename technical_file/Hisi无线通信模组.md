@@ -149,5 +149,24 @@ const uint8_t keyReleaseData[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 
 ## 接收HID下发的数据
 
-使用
+使用**HIDAssist**工具即可快速验证模块间的通信测试。
+
+1、下载[HIDAssist](https://www.wch.cn/downloads/HIDAssist_ZIP.html)工具，并解压，压缩包内有详细的使用说明。
+
+2、连接好电路，将模块与电脑进行连接。
+
+3、打开HIDAssist工具，点击设备列表，找到如下所示的设备，并连接设备。
+
+![](assets/Hisi无线通信模组/file-20260528135351771.png)
+
+4、在发送区输入
+
+
+
+
+
+
+
+
+
 
