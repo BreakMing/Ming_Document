@@ -147,7 +147,7 @@ const uint8_t keyReleaseData[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 
 我们在每次发送完键码指令后都要发送结束指令，不然PC会认为我们还在按下按键。
 
-## 接收HID下发的数据
+### 接收HID下发的数据
 
 使用**HIDAssist**工具快速验证模块间的通信测试。
 
@@ -166,7 +166,7 @@ const uint8_t keyReleaseData[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 ![](assets/Hisi无线通信模组/file-20260528140523566.png)
 
 
-
+## 
 
 
 
