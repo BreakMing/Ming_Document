@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "technical_file/Hisi无线通信模组.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -197,6 +197,7 @@
   },
   "active": "1c063df2b4bb36be",
   "lastOpenFiles": [
+    "technical_file/assets/Hisi无线通信模组/file-20260528130446165.png",
     "technical_file/ESP  海思.md",
     "technical_file/OLED.md",
     "technical_file/NFC.md",
