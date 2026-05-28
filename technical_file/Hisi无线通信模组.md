@@ -21,6 +21,21 @@ UART接口：使用任意可UART通信的单片机即可，**波特率**默认�
 ### 硬件连接
 
 
+
+![](assets/Hisi无线通信模组/file-20260528174859197.png)
+
+使用下载调试模块
+
+```
+串口调试模块           接收模块
+3.3V-----------------3.3V
+TX-------------------SLE_RX
+RX-------------------SLE_TX
+GND------------------GND
+```
+
+
+
 1、下载烧录工具
 
 - 下载[BurnTool](https://gitee.com/hihope_iot/near-link/blob/master/tools/BurnTool_5.0.39.rar)工具
