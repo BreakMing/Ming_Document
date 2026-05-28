@@ -181,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,6 +198,7 @@
   },
   "active": "1c063df2b4bb36be",
   "lastOpenFiles": [
+    "technical_file/assets/Hisi无线通信模组/file-20260528165838557.png",
     "technical_file/assets/Hisi无线通信模组/file-20260528140523566.png",
     "technical_file/assets/Hisi无线通信模组/file-20260528135351771.png",
     "technical_file/assets/Hisi无线通信模组/file-20260528133633999.png",
@@ -211,7 +213,6 @@
     "technical_file/assets/Hisi无线通信模组/file-20260526175210639.png",
     "technical_file/assets/Hisi无线通信模组/file-20260526175210638.png",
     "assets/Hisi 无线收发模块/file-20260525123420098.png",
-    "assets/Hisi 无线收发模块/file-20260525123345695.png",
     "technical_file/Hisi无线通信模组.md",
     "Hisi 无线收发模块.md",
     "technical_file/有意思的视频选题.md",
