@@ -149,7 +149,7 @@ const uint8_t keyReleaseData[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 
 ## 接收HID下发的数据
 
-使用**HIDAssist**工具即可快速验证模块间的通信测试。
+使用**HIDAssist**工具快速验证模块间的通信测试。
 
 1、下载[HIDAssist](https://www.wch.cn/downloads/HIDAssist_ZIP.html)工具，并解压，压缩包内有详细的使用说明。
 
