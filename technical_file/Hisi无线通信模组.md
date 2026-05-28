@@ -145,6 +145,18 @@ const uint8_t keyReleaseData[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 
 ### 接收HID下发的数据
 
+![](assets/Hisi无线通信模组/file-20260528182708414.png)
+
+按以下接线，连接带UART功能的MCU或模块。
+
+```
+MCU                   发送模块
+RXD-------------------UART_TX
+GND-------------------GND
+```
+
+连接完成后，我们回到PC端。
+
 使用**HIDAssist**工具快速验证模块间的通信测试。
 
 1、下载[HIDAssist](https://www.wch.cn/downloads/HIDAssist_ZIP.html)工具，并解压，压缩包内有详细的使用说明。
