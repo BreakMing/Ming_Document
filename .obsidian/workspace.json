@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -196,8 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c063df2b4bb36be",
+  "active": "d2197f58198f503f",
   "lastOpenFiles": [
+    "technical_file/Gyroscope.md",
+    "technical_file/Hisi无线通信模组.md",
     "technical_file/assets/Hisi无线通信模组/file-20260529102100496.png",
     "technical_file/assets/Hisi无线通信模组/file-20260529101308384.png",
     "technical_file/assets/Hisi无线通信模组/file-20260528183639693.png",
@@ -208,17 +209,14 @@
     "technical_file/assets/Hisi无线通信模组/file-20260528181735660.png",
     "technical_file/assets/Hisi无线通信模组/file-20260528181104349.png",
     "technical_file/assets/Hisi无线通信模组/file-20260528181002736.png",
-    "technical_file/assets/Hisi无线通信模组/file-20260528180709001.png",
     "technical_file/ESP  海思.md",
     "technical_file/OLED.md",
     "technical_file/NFC.md",
     "technical_file/MPU6050.md",
-    "technical_file/Hisi无线通信模组.md",
     "Hisi 无线收发模块.md",
     "technical_file/有意思的视频选题.md",
     "technical_file/assets/Hisi模块使用说明",
     "technical_file/assets/Hisi无线通信模组使用说明",
-    "technical_file/Gyroscope.md",
     "technical_file/assets/Hisi无线通信模组",
     "Hisi_案例素材的问题.md",
     "assets/Hisi 无线收发模块",
