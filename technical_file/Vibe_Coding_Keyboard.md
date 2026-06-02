@@ -26,11 +26,9 @@ Vibe_Coding_Keyboard/
 
 ### 硬件连接
 
+![](assets/Vibe_Coding_Keyboard/file-20260602164855807.png)
 
-
-
-
-使用下载调试模块按以下接线方式分别与接收模块和发送模块连接。
+使用下载调试模块按以下接线方式与USB-Dongle连接。
 
 ```
 
