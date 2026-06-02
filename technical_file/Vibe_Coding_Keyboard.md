@@ -16,8 +16,8 @@ Vibe_Coding_Keyboard 基于 BS21E 主控芯片、LiteOS 系统开发，依托星
 ```
 Vibe_Coding_Keyboard/
 ├── assets  
-├── hardware # 硬件文件 
-├── software # 软件固件  
+├── hardware    # 硬件文件 
+├── software    # 软件固件  
 └── README.md
 
 ```
@@ -25,6 +25,10 @@ Vibe_Coding_Keyboard/
 ## 固件烧录
 
 ### 硬件连接
+
+
+
+
 
 使用下载调试模块按以下接线方式分别与接收模块和发送模块连接。
 
