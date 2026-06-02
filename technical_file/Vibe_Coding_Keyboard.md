@@ -122,8 +122,6 @@ GND------------------GND
 
 ![](assets/Vibe_Coding_Keyboard/file-20260602173446416.png)
 
-
-
 ### 屏幕状态显示
 
 使用**HIDAssist**工具快速验证模块间的通信测试。
