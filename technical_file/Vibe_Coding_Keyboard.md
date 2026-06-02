@@ -14,7 +14,7 @@ Vibe_Coding_Keyboard基于BS21E芯片，在Lite OS上开发，使用
 
 ## 功能实现
 
-### 按键传输
+### 按键输入
 
 ### 语音输入
 
