@@ -6,7 +6,8 @@ Vibe_Coding_Keyboard 基于 BS21E 主控芯片、LiteOS 系统开发，依托星
 ## 功能特点
 
 
-- 实时采集 PDM 麦克风音频通过星闪同步传输给电脑
+- 实时采集 PDM 麦克风音频通过星闪发送给USB_dongle同步传输给PC
+- 发送预设好的键值指令，
 - 遵循标准 USB-HID 协议，无需安装驱动，即插即用
 - 接收并解析PC下发的claude code的状态信息，读取并展示在屏幕上。
 
