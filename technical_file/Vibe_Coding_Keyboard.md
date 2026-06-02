@@ -6,6 +6,8 @@ Vibe_Coding_Keyboard 基于 BS21E 主控芯片、LiteOS 系统开发，依托星
 ## 功能特点
 
 
+- 
+- 遵循标准 USB-HID 协议，无需安装驱动，即插即用
 
 
 
