@@ -86,16 +86,6 @@ GND------------------GND
 
 ![](assets/Hisi无线通信模组/file-20260528183639693.png)
 
-### 键盘按键输入
-
-1、拿出我们的键盘本体，上面有三个按键，从左到右依次表示为：Ctrl+Win，Backspace，Enter。
-
-![](assets/Vibe_Coding_Keyboard/file-20260602174446021.png)
-
-2、使用Type-c接口的供电线与键盘连接，打开[键盘测试](https://www.zfrontier.com/lab/keyboardTester)网页，我们随意按下这三个按键，可以看到网页上对应位置的按键变黑了，右边也出现了按键被按下的日志。
-
-![](assets/Vibe_Coding_Keyboard/file-20260602173446416.png)
-
 ### 语音输入
 
 1、使用Type-c接口的供电线与键盘连接，首先我们打开**设置**（快捷键win+i），进入系统->声音->高级->更多声音设置
@@ -119,6 +109,18 @@ GND------------------GND
 ![](assets/Vibe_Coding_Keyboard/file-20260602175010730.png)
 
 6、打开一个空白的word文档，按下第一个有麦克风标志的按键，随意说一段话，松开按键，就可以转文字到文档了。
+
+### 键盘按键输入
+
+1、在我们的键盘本体，上面有三个按键，从左到右依次表示为：Ctrl+Win，Backspace，Enter。
+
+![](assets/Vibe_Coding_Keyboard/file-20260602174446021.png)
+
+2、使用Type-c接口的供电线与键盘连接，打开[键盘测试](https://www.zfrontier.com/lab/keyboardTester)网页，我们随意按下这三个按键，可以看到网页上对应位置的按键变黑了，右边也出现了按键被按下的日志。
+
+![](assets/Vibe_Coding_Keyboard/file-20260602173446416.png)
+
+
 
 ### 屏幕状态显示
 
