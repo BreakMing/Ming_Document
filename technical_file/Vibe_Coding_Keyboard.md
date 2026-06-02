@@ -12,7 +12,7 @@ Vibe_Coding_Keyboard基于BS21E芯片，在Lite OS上开发，使用
 ## 目录结构
 
 
-## 使用方法
+## 功能实现
 
 ### 按键传输
 
