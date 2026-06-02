@@ -88,8 +88,13 @@ GND------------------GND
 
 ### 键盘按键输入
 
-1、使用Type-c接口的供电线与键盘连接，打开键盘测试网页
+1、拿出我们的键盘本体，上面有三个按键，从左到右依次表示为：Ctrl+Win，Backspace，Enter。
 
+
+
+使用Type-c接口的供电线与键盘连接，打开[键盘测试](https://www.zfrontier.com/lab/keyboardTester)网页，我们随意按下这三个按键，可以看到网页上对应位置的按键变黑了，右边也出现了按键被按下的日志。
+
+![](assets/Vibe_Coding_Keyboard/file-20260602173446416.png)
 
 ### 语音输入
 
