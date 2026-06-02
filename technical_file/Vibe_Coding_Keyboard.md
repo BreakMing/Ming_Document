@@ -29,6 +29,8 @@ Vibe_Coding_Keyboard/
 
 ### 硬件连接
 
+#### USB-Dongle部分
+
 ![](assets/Vibe_Coding_Keyboard/file-20260602164855807.png)
 
 使用下载调试模块按以下接线方式与USB-Dongle连接。
@@ -40,6 +42,20 @@ TX-------------------SLE_RX
 RX-------------------SLE_TX
 GND------------------GND
 ```
+
+#### 键盘部分
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### 软件烧录
 
