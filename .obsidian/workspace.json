@@ -35,8 +35,7 @@
               "title": "Vibe_Coding_Keyboard"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,11 +210,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "abcb543bf49f863a",
+  "active": "1c063df2b4bb36be",
   "lastOpenFiles": [
-    "technical_file/assets/Vibe_Coding_Keyboard/file-20260602171311696.png",
-    "technical_file/Hisi无线通信模组.md",
     "technical_file/Vibe_Coding_Keyboard.md",
+    "technical_file/Hisi无线通信模组.md",
+    "technical_file/assets/Vibe_Coding_Keyboard/file-20260602171311696.png",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260602164855807.png",
     "technical_file/assets/Vibe_Coding_Keyboard",
     "technical_file/Gyroscope.md",
@@ -227,7 +226,6 @@
     "technical_file/assets/Hisi无线通信模组/file-20260528182018969.png",
     "technical_file/assets/Hisi无线通信模组/file-20260528181829766.png",
     "technical_file/assets/Hisi无线通信模组/file-20260528181735660.png",
-    "technical_file/assets/Hisi无线通信模组/file-20260528181104349.png",
     "technical_file/ESP  海思.md",
     "technical_file/OLED.md",
     "technical_file/NFC.md",
