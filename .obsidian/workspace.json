@@ -35,8 +35,7 @@
               "title": "Hisi无线通信模组"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,10 +210,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5bb637c70f285f41",
+  "active": "abcb543bf49f863a",
   "lastOpenFiles": [
-    "technical_file/Vibe_Coding_Keyboard.md",
+    "technical_file/assets/Vibe_Coding_Keyboard/file-20260602185827054.png",
     "technical_file/Hisi无线通信模组.md",
+    "technical_file/Vibe_Coding_Keyboard.md",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260602184814219.png",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260602184311839.png",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260602183835791.png",

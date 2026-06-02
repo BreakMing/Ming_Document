@@ -84,9 +84,9 @@ GND------------------GND
 
 ![](assets/Hisi无线通信模组/file-20260528183639693.png)
 
-观察USB-Dongle，下图位置的连接指示灯亮起代表连接成功。
+观察USB-Dongle，下图位置的**连接指示灯**亮起代表连接成功。
 
-
+![](assets/Vibe_Coding_Keyboard/file-20260602185827054.png)
 
 ### 语音输入
 
