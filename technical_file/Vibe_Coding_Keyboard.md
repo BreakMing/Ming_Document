@@ -11,7 +11,7 @@ Vibe_Coding_Keyboard基于BS21E芯片，在Lite OS上开发，使用
 
 ## 目录结构
 ```
-tft/
+Vibe_Coding_Keyboard/
 ├── assets  
 ├── hardware # 硬件文件 
 ├── software # 软件固件  
@@ -50,11 +50,24 @@ tft/
 
 ## 功能调试
 
+
+
+
 ### 按键输入
+
+
+
 
 ### 语音输入
 
+
+
+
 ### 屏幕状态显示
+
+
+
+
 
 ## 调试建议
 
