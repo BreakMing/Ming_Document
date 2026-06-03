@@ -2,7 +2,7 @@
 
 Vibe_Coding键盘 基于 BS21E 主控芯片、LiteOS 系统开发，依托星闪通信搭配 USB‑HID 实现全双工数据交互。设备配备三颗定制机械按键与 PDM数字麦克风，搭配 1.14 英寸 TFT 彩色显示屏，上行可无线传输按键指令与音频数据，下行接收电脑发送的状态信息并在彩屏上实时展示，专为开发者打造编码辅助工具。
 
-![](assets/Vibe_Coding_Keyboard/file-20260602184814219.png)
+![](assets/Vibe_Coding_Keyboard/file-20260603104903186.png)
 
 ## 功能特点
 
