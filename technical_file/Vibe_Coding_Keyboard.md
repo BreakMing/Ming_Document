@@ -124,7 +124,20 @@ GND------------------GND
 
 ### 屏幕状态显示
 
-1、
+1、安装claude code到Windows系统电脑上。
+
+2、下载**vibekeys-plugin**插件
+
+```
+mkdir C:\Users\用户名\plug-in
+
+//下载vibekeys-plugin插件到本地
+git clone https://cnb.cool/hexchip/vibekeys-plugin
+```
+
+
+
+
 
 4、在键盘屏幕上就会出现如下显示
 
