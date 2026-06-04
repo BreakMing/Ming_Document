@@ -114,7 +114,7 @@ GND------------------GND
 
 ### 键盘按键输入
 
-1、在我们的键盘本体上面有三个按键，从左到右依次表示为：Ctrl+Win，Backspace，Enter。
+1、在我们的键盘本体上面有三个按键，从左到右依次表示为：**Ctrl+Win，Backspace，Enter**。
 
 ![](assets/Vibe_Coding_Keyboard/file-20260602174446021.png)
 
