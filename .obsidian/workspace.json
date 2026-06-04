@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technical_file/ESP  海思.md",
+                "file": "technical_file/Vibe_Coding_Keyboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESP  海思"
+              "title": "Vibe_Coding_Keyboard"
             }
           }
         ]
@@ -197,9 +197,9 @@
   },
   "active": "abcb543bf49f863a",
   "lastOpenFiles": [
-    "technical_file/Vibe_Coding_Keyboard.md",
     "technical_file/ESP  海思.md",
     "technical_file/Hisi无线通信模组.md",
+    "technical_file/Vibe_Coding_Keyboard.md",
     "technical_file/RF射频.md",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260603104903186.png",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260602164855807.png",
