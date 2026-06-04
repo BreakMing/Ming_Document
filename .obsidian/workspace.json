@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "aec3bb71bfde6b1b",
+        "id": "ac70334eda166750",
         "type": "tabs",
         "children": [
           {
-            "id": "0f5373740f6dc6a5",
+            "id": "fedd644e26fa612d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -195,10 +195,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d2197f58198f503f",
+  "active": "fedd644e26fa612d",
   "lastOpenFiles": [
-    "technical_file/Vibe_Coding_Keyboard.md",
+    "technical_file/assets/Hisi无线通信模组/file-20260526175210641.png",
+    "technical_file/assets/Hisi无线通信模组/file-20260526175210640 1.png",
+    "technical_file/assets/Hisi无线通信模组/file-20260526175210640.png",
+    "technical_file/assets/Hisi无线通信模组/file-20260526175210639.png",
+    "technical_file/assets/Hisi无线通信模组/file-20260526175210638.png",
     "technical_file/Vide_Coding_Keyboard.md",
+    "technical_file/Vibe_Coding_Keyboard.md",
     "technical_file/README.md",
     "assets/Hisi 无线收发模块/file-20260525123345695.png",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123949382.png",
@@ -206,10 +211,6 @@
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123819584.png",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123451068.png",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123420098.png",
-    "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123345695.png",
-    "assets/Hisi 无线收发模块/file-20260525123420098.png",
-    "assets/Hisi 无线收发模块/file-20260525123949382.png",
-    "assets/Hisi 无线收发模块/file-20260525123843382.png",
     "technical_file/Hisi无线通信模组.md",
     "technical_file/ESP  海思.md",
     "technical_file/RF射频.md",
@@ -241,7 +242,6 @@
     "未命名 2.base",
     "technical_file/CAN_格式.md",
     "可发布的文档/远程遥控开关是怎样工作的.md",
-    "日记/日记.md",
-    "technical_file/WIFI和蓝牙.md"
+    "日记/日记.md"
   ]
 }
