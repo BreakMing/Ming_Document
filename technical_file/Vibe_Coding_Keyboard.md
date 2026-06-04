@@ -141,6 +141,16 @@ git clone https://cnb.cool/hexchip/vibekeys-plugin
 
 3、给claude code安装vibekeys-plugin插件
 
+```
+//创建一个claude测试文件夹
+mkdir "$env:USERPROFILE\claude_test"
+
+//进入我们的测试文件夹
+cd "$env:USERPROFILE\claude_test"
+
+//打开claude code
+claude
+```
 
 
 
