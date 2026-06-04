@@ -121,7 +121,7 @@ GND------------------GND
 
 2、使用Type-c接口的供电线与键盘侧面接口连接，打开[键盘测试](https://www.zfrontier.com/lab/keyboardTester)网页，我们随意按下这三个按键，可以看到网页上对应位置的按键变黑了，右边也出现了按键被按下的日志。
 
-![](assets/Vibe_Coding_Keyboard/file-20260602173446416.png)
+![](assets/Vibe_Coding_Keyboard/file-20260604124759305.png)
 
 ### claude code状态显示
 
