@@ -60,15 +60,15 @@ GND------------------GND
 
 2、进入BurnTool，点击“Setting”，波特率设置为750000。
 
-![](assets/Hisi%20无线收发模块/file-20260525123345695.png)
+![](assets/Vibe_Coding_Keyboard/file-20260525123345695.png)
 
 3、选择端口，选择固件，并勾选“Auto burn”和“Auto disconnect”。
 
-![](assets/Hisi%20无线收发模块/file-20260525123843382.png)
+![](assets/Vibe_Coding_Keyboard/file-20260525123843382.png)
 
 4、点击Connect，断开开发板连接的供电线，再重新连接开发板供电线，即可烧录固件。
 
-![](assets/Hisi%20无线收发模块/file-20260525123949382.png)
+![](assets/Vibe_Coding_Keyboard/file-20260525123949382.png)
 
 
 ## 功能调试
