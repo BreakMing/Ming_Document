@@ -11,14 +11,10 @@
             "id": "0f5373740f6dc6a5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "technical_file/Vibe_Coding_Keyboard.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Vibe_Coding_Keyboard"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -195,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0f5373740f6dc6a5",
+  "active": "d2197f58198f503f",
   "lastOpenFiles": [
     "assets/Hisi 无线收发模块/file-20260525123345695.png",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123949382.png",
