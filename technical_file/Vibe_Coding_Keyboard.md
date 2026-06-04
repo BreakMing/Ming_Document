@@ -139,22 +139,9 @@ cd "$env:USERPROFILE\plug-in"
 git clone https://cnb.cool/hexchip/vibekeys-plugin
 ```
 
-3、给claude code安装vibekeys-plugin插件
+3、给claude code安装vibekeys-plugin插件，以及后续配置请参考[此处](https://cnb.cool/hexchip/vibekeys-plugin#%E5%AE%89%E8%A3%85)。
 
-```
-//创建一个claude测试文件夹
-mkdir "$env:USERPROFILE\claude_test"
-
-//进入我们的测试文件夹
-cd "$env:USERPROFILE\claude_test"
-
-//打开claude code
-claude
-```
-
-
-
-4、在键盘屏幕上就会出现如下显示
+4、打开claude code和它聊天，既可以在键盘屏幕上看到如下显示。
 
 ![](assets/Vibe_Coding_Keyboard/file-20260602182258455.jpg)
 
