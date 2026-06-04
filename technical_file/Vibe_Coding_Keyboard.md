@@ -129,7 +129,11 @@ GND------------------GND
 2、下载**vibekeys-plugin**插件
 
 ```
-mkdir C:\Users\用户名\plug-in
+//在用户目录下创建插件文件夹
+mkdir "$env:USERPROFILE\plug-in"
+
+//进入创建的文件夹
+cd "$env:USERPROFILE\plug-in"
 
 //下载vibekeys-plugin插件到本地
 git clone https://cnb.cool/hexchip/vibekeys-plugin
