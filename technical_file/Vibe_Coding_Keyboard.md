@@ -56,7 +56,7 @@ GND------------------GND
 
 1、下载烧录工具
 
-- 下载[BurnTool](https://gitee.com/hihope_iot/near-link/blob/master/tools/BurnTool_5.0.39.rar)工具，并压BurnTool压缩包。
+- 下载[BurnTool](https://gitee.com/hihope_iot/near-link/blob/master/tools/BurnTool_5.0.39.rar)工具，并解压BurnTool压缩包。
 
 2、进入BurnTool，点击“Setting”，波特率设置为750000。
 
