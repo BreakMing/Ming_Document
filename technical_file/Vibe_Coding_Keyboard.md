@@ -124,7 +124,7 @@ GND------------------GND
 
 ### 屏幕状态显示
 
-1、安装[claude code](https://code.claude.com/docs/en/overview)到Windows系统电脑上。
+1、安装[claude code](https://code.claude.com/docs/en/overview)到PC上。
 
 2、下载**vibekeys-plugin**插件
 
