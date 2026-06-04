@@ -124,7 +124,7 @@ GND------------------GND
 
 ### 屏幕状态显示
 
-1、安装claude code到Windows系统电脑上。
+1、安装[claude code](https://code.claude.com/docs/en/overview)到Windows系统电脑上。
 
 2、下载**vibekeys-plugin**插件
 
@@ -139,6 +139,7 @@ cd "$env:USERPROFILE\plug-in"
 git clone https://cnb.cool/hexchip/vibekeys-plugin
 ```
 
+3、给claude code安装vibekeys-plugin插件
 
 
 
