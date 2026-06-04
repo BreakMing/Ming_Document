@@ -122,7 +122,7 @@ GND------------------GND
 
 ![](assets/Vibe_Coding_Keyboard/file-20260602173446416.png)
 
-### 屏幕状态显示
+### claude code状态显示
 
 1、安装[claude code](https://code.claude.com/docs/en/overview)到PC上。
 
