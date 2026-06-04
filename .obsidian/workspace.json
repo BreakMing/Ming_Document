@@ -11,10 +11,14 @@
             "id": "0f5373740f6dc6a5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "technical_file/Vide_Coding_Keyboard.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Vide_Coding_Keyboard"
             }
           }
         ]
@@ -176,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,6 +197,9 @@
   },
   "active": "d2197f58198f503f",
   "lastOpenFiles": [
+    "technical_file/Vibe_Coding_Keyboard.md",
+    "technical_file/Vide_Coding_Keyboard.md",
+    "technical_file/README.md",
     "assets/Hisi 无线收发模块/file-20260525123345695.png",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123949382.png",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123843382.png",
@@ -202,8 +210,6 @@
     "assets/Hisi 无线收发模块/file-20260525123420098.png",
     "assets/Hisi 无线收发模块/file-20260525123949382.png",
     "assets/Hisi 无线收发模块/file-20260525123843382.png",
-    "assets/Hisi 无线收发模块/file-20260525123819584.png",
-    "technical_file/Vibe_Coding_Keyboard.md",
     "technical_file/Hisi无线通信模组.md",
     "technical_file/ESP  海思.md",
     "technical_file/RF射频.md",
@@ -236,7 +242,6 @@
     "technical_file/CAN_格式.md",
     "可发布的文档/远程遥控开关是怎样工作的.md",
     "日记/日记.md",
-    "technical_file/WIFI和蓝牙.md",
-    "Break_M/日记/日记.md"
+    "technical_file/WIFI和蓝牙.md"
   ]
 }
