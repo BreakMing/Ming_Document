@@ -6,12 +6,10 @@ Vibe_Coding键盘 基于 BS21E 主控芯片、LiteOS 系统开发，依托星闪
 
 ## 功能特点
 
-
 - 实时采集 PDM 麦克风音频通过星闪发送给USB_dongle同步传输给PC。
 - 预设语音输入、回车、回退三键功能，直接生成标准键盘码指令，无需任何配置。
 - 遵循标准 USB-HID 协议，无需安装驱动，即插即用。
 - 接收并解析PC下发的claude code的状态信息，读取并展示在屏幕上。
-
 
 ## 目录结构
 ```
@@ -20,7 +18,6 @@ Vibe_Coding_Keyboard/
 ├── hardware    # 硬件文件 
 ├── software    # 软件固件  
 └── README.md
-
 ```
 
 ## 固件烧录
