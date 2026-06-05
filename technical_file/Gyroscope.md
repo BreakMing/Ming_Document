@@ -85,7 +85,7 @@
 
 核心公式如下图所示
 
-![](assets/Gyroscope/file-20260428160901510.png)
+![332](assets/Gyroscope/file-20260428160901510.png)
 
 ![](assets/Gyroscope/file-20260428162214776.png)
 
