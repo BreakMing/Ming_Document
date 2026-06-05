@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technical_file/Vide_Coding_Keyboard.md",
+                "file": "technical_file/Gyroscope.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vide_Coding_Keyboard"
+              "title": "Gyroscope"
             }
           }
         ]
@@ -197,12 +197,20 @@
   },
   "active": "fedd644e26fa612d",
   "lastOpenFiles": [
+    "technical_file/Hisi无线通信模组.md",
+    "technical_file/Linux_Learning_Path.md",
+    "technical_file/MPU6050.md",
+    "technical_file/WIFI和蓝牙.md",
+    "technical_file/Vide_Coding_Keyboard.md",
+    "technical_file/RF射频.md",
+    "technical_file/Reinforcement learning（RL）.md",
+    "technical_file/Package_Manager_V1.0.md",
+    "technical_file/Package_Manager_V1.1.md",
     "technical_file/assets/Hisi无线通信模组/file-20260526175210641.png",
     "technical_file/assets/Hisi无线通信模组/file-20260526175210640 1.png",
     "technical_file/assets/Hisi无线通信模组/file-20260526175210640.png",
     "technical_file/assets/Hisi无线通信模组/file-20260526175210639.png",
     "technical_file/assets/Hisi无线通信模组/file-20260526175210638.png",
-    "technical_file/Vide_Coding_Keyboard.md",
     "technical_file/Vibe_Coding_Keyboard.md",
     "technical_file/README.md",
     "assets/Hisi 无线收发模块/file-20260525123345695.png",
@@ -210,15 +218,11 @@
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123843382.png",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123819584.png",
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123451068.png",
-    "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123420098.png",
-    "technical_file/Hisi无线通信模组.md",
     "technical_file/ESP  海思.md",
-    "technical_file/RF射频.md",
     "technical_file/assets/Vibe_Coding_Keyboard",
     "technical_file/Gyroscope.md",
     "technical_file/OLED.md",
     "technical_file/NFC.md",
-    "technical_file/MPU6050.md",
     "Hisi 无线收发模块.md",
     "technical_file/有意思的视频选题.md",
     "technical_file/assets/Hisi模块使用说明",
@@ -231,13 +235,9 @@
     "technical_file/CANOPEN.md",
     "technical_file/CAN_脚本.md",
     "technical_file/CAN.md",
-    "technical_file/Reinforcement learning（RL）.md",
     "未命名.md",
     "assets/未命名",
     "assets",
-    "technical_file/Package_Manager_V1.0.md",
-    "technical_file/Package_Manager_V1.1.md",
-    "technical_file/Linux_Learning_Path.md",
     "未命名.base",
     "未命名 2.base",
     "technical_file/CAN_格式.md",
