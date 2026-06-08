@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technical_file/MPU6050.md",
+                "file": "technical_file/Gyroscope.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MPU6050"
+              "title": "Gyroscope"
             }
           }
         ]
@@ -198,10 +198,10 @@
   },
   "active": "fedd644e26fa612d",
   "lastOpenFiles": [
+    "technical_file/MPU6050.md",
     "technical_file/Gyroscope.md",
     "technical_file/Hisi无线通信模组.md",
     "technical_file/Linux_Learning_Path.md",
-    "technical_file/MPU6050.md",
     "technical_file/WIFI和蓝牙.md",
     "technical_file/Vide_Coding_Keyboard.md",
     "technical_file/RF射频.md",
