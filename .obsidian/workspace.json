@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technical_file/Gyroscope.md",
+                "file": "technical_file/MPU6050.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gyroscope"
+              "title": "MPU6050"
             }
           }
         ]
@@ -198,6 +198,7 @@
   },
   "active": "fedd644e26fa612d",
   "lastOpenFiles": [
+    "technical_file/Gyroscope.md",
     "technical_file/Hisi无线通信模组.md",
     "technical_file/Linux_Learning_Path.md",
     "technical_file/MPU6050.md",
@@ -221,7 +222,6 @@
     "technical_file/assets/Vibe_Coding_Keyboard/file-20260525123451068.png",
     "technical_file/ESP  海思.md",
     "technical_file/assets/Vibe_Coding_Keyboard",
-    "technical_file/Gyroscope.md",
     "technical_file/OLED.md",
     "technical_file/NFC.md",
     "Hisi 无线收发模块.md",
