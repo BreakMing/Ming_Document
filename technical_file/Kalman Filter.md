@@ -169,7 +169,7 @@ $$\begin{bmatrix} \theta_k \\ b_k \end{bmatrix} = \begin{bmatrix} 1 & -\Delta t 
 
 $$F = \begin{bmatrix} 1 & -\Delta t \\ 0 & 1 \end{bmatrix}, \quad B = \begin{bmatrix} \Delta t \\ 0 \end{bmatrix}$$
 
-> 注意：这里的 $\omega_k$ 是**陀螺仪直接输出的角速度**。它在数学上是"控制输入"的角色——告诉系统这一拍旋转了多少。
+> 注意：这里的 $\omega_k$ 是**陀螺仪直接输出的角速度**。它在数学上是"控制输入"的角色——告诉系统这一时刻旋转了多少。
 
 #### 测量方程（观测模型）
 
