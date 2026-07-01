@@ -254,15 +254,6 @@ $R$ 是最容易确定的参数——把传感器静置，采集 200~500 个数�
 
 三者不是替代关系，而是递进关系。在实际项目中，选择哪一种取决于你对精度、复杂度和调试时间之间的权衡。
 
-## 附录
-
-### 推荐参考资料
-
-1. **Welch & Bishop — *An Introduction to the Kalman Filter***：卡尔曼滤波最经典的入门教程，数学严格但不过于艰深，强烈推荐作为第一步深入阅读的材料。网上可免费获取 PDF。
-2. **Maybeck — *Stochastic Models, Estimation and Control***：三卷本的经典教材，全面覆盖估计理论的数学基础，适合想要彻底搞懂原理的读者。
-3. **Simon — *Optimal State Estimation***：更适合工程师阅读的教材，包含大量 MATLAB 示例，兼顾理论和实践。
-4. **Bzarg — *How a Kalman filter works, in pictures***（博客）：用大量可视化插图讲解卡尔曼滤波，非常适合建立直觉。`www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/`
-
 ### 相关笔记
 
 - [[Gyroscope]] — 陀螺仪误差分析、一阶互补滤波与 Mahony 滤波器的详细介绍
