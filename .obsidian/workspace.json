@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ac70334eda166750",
+        "id": "68519c61c18b8197",
         "type": "tabs",
         "children": [
           {
-            "id": "7763dc9cea630640",
+            "id": "55197657eea5317d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -195,8 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c68704bc3abbc2e",
+  "active": "55197657eea5317d",
   "lastOpenFiles": [
+    "technical_file/Kalman Filter.md",
+    "technical_file/fix_underscore.py.tmp.3356.f24d0ab56597",
     "technical_file/fix_underscore.py",
     "technical_file/fix_underscore.py.tmp.3356.b7820431b7d6",
     "technical_file/fix_math.py",
@@ -206,12 +208,9 @@
     "technical_file/Kalman Filter.md.tmp.3356.eeb847507943",
     "technical_file/Kalman Filter.md.tmp.3356.4ea4b3fafd26",
     "technical_file/Kalman Filter.md.tmp.3356.7105dc18f632",
-    "technical_file/Kalman Filter.md.tmp.3356.608296259d14",
-    "technical_file/Kalman Filter.md.tmp.3356.21d0fcabf7d6",
     "technical_file/assets/KalmanFilter/file-20260702142209424.png",
     "technical_file/Gyroscope.md",
     "technical_file/Kalman Filter 伪代码.md",
-    "technical_file/Kalman Filter.md",
     "technical_file/测量方程讲解.md",
     "technical_file/assets/Kalman Filter/file-20260702142209424.png",
     "Hisi_案例素材的问题.md",
