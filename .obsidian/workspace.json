@@ -195,8 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7763dc9cea630640",
+  "active": "2c68704bc3abbc2e",
   "lastOpenFiles": [
+    "technical_file/fix_underscore.py",
+    "technical_file/fix_underscore.py.tmp.3356.b7820431b7d6",
     "technical_file/fix_math.py",
     "technical_file/fix_math.py.tmp.3356.a5c870df6172",
     "technical_file/Kalman Filter.md.tmp.3356.9318b3749a69",
@@ -206,8 +208,6 @@
     "technical_file/Kalman Filter.md.tmp.3356.7105dc18f632",
     "technical_file/Kalman Filter.md.tmp.3356.608296259d14",
     "technical_file/Kalman Filter.md.tmp.3356.21d0fcabf7d6",
-    "technical_file/Kalman Filter.md.tmp.3356.c27d84f9517a",
-    "technical_file/Kalman Filter.md.tmp.3356.7e385ff81895",
     "technical_file/assets/KalmanFilter/file-20260702142209424.png",
     "technical_file/Gyroscope.md",
     "technical_file/Kalman Filter 伪代码.md",
