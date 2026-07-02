@@ -180,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7763dc9cea630640",
+  "active": "2c68704bc3abbc2e",
   "lastOpenFiles": [
     "technical_file/Kalman Filter.md.tmp.27276.7e0e0aba369d",
     "technical_file/Kalman Filter.md.tmp.27276.cf72314383c8",
