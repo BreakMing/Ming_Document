@@ -89,7 +89,9 @@ $P$ 是协方差矩阵，它描述了状态估计的**不确定度**。$P$ 的�
 
 这是整个卡尔曼滤波器的**心脏**。$K$（卡尔曼增益）是一个比例因子，它在算：
 
-$$K \approx \frac{\text{预测的不确定度}}{\text{预测的不确定度} + \text{测量噪声}}$$
+```math
+K \approx \frac{\text{预测的不确定度}}{\text{预测的不确定度} + \text{测量噪声}}
+```
 
 - 如果测量噪声 $R$ 很大（传感器不可信） → $K$ 很小 → 几乎忽略测量值，只相信模型预测
 - 如果预测不确定度 $P_k^-$ 很大（模型不可信） → $K$ 接近 1 → 几乎完全采用测量值
@@ -140,7 +142,9 @@ $K$ 是**动态变化**的——随着滤波器不断运行，$P$ 会慢慢减�
 
 #### 状态向量：我们要估计什么
 
-$$x = \begin{bmatrix} \theta \cr b \end{bmatrix}$$
+```math
+x = \begin{bmatrix} \theta \\ b \end{bmatrix}
+```
 
 - $\theta$：载体的真实俯仰角（我们想要的）
 - $b$：陀螺仪的零偏（我们顺便估计出来的，用来补偿陀螺仪原始数据）
@@ -154,17 +158,25 @@ $$x = \begin{bmatrix} \theta \cr b \end{bmatrix}$$
 - 角度的变化 = 角速度 × 时间（注意减去零偏）
 - 零偏变化极慢，近似为常量（只加一点点噪声表示它允许缓慢漂移）
 
-$$\theta_k = \theta_{k-1} + (\omega_k - b_{k-1}) \cdot \Delta t$$
+```math
+\theta_k = \theta_{k-1} + (\omega_k - b_{k-1}) \cdot \Delta t
+```
 
-$$b_k = b_{k-1}$$
+```math
+b_k = b_{k-1}
+```
 
 写成矩阵形式：
 
-$$\begin{bmatrix} \theta_k \cr b_k \end{bmatrix} = \begin{bmatrix} 1 & -\Delta t \cr 0 & 1 \end{bmatrix} \begin{bmatrix} \theta_{k-1} \cr b_{k-1} \end{bmatrix} + \begin{bmatrix} \Delta t \cr 0 \end{bmatrix} \omega_k$$
+```math
+\begin{bmatrix} \theta_k \\ b_k \end{bmatrix} = \begin{bmatrix} 1 & -\Delta t \\ 0 & 1 \end{bmatrix} \begin{bmatrix} \theta_{k-1} \\ b_{k-1} \end{bmatrix} + \begin{bmatrix} \Delta t \\ 0 \end{bmatrix} \omega_k
+```
 
 所以状态转移矩阵 $F$ 和控制矩阵 $B$ 为：
 
-$$F = \begin{bmatrix} 1 & -\Delta t \cr 0 & 1 \end{bmatrix}, \quad B = \begin{bmatrix} \Delta t \cr 0 \end{bmatrix}$$
+```math
+F = \begin{bmatrix} 1 & -\Delta t \\ 0 & 1 \end{bmatrix}, \quad B = \begin{bmatrix} \Delta t \\ 0 \end{bmatrix}
+```
 
 > 注意：这里的 $\omega_k$ 是**陀螺仪直接输出的角速度**。它在数学上是"控制输入"的角色——告诉系统这一时刻旋转了多少。
 
@@ -172,15 +184,21 @@ $$F = \begin{bmatrix} 1 & -\Delta t \cr 0 & 1 \end{bmatrix}, \quad B = \begin{bm
 
 加速度计可以测量重力方向，从而反算出角度：
 
-$$\theta_{acc} = \theta_k + v_k$$
+```math
+\theta_{acc} = \theta_k + v_k
+```
 
 其中 $v_k$ 是测量噪声（振动、加速度计自身噪声等）。写成矩阵形式：
 
-$$z_k = \begin{bmatrix} 1 & 0 \end{bmatrix} \begin{bmatrix} \theta_k \cr b_k \end{bmatrix} + v_k$$
+```math
+z_k = \begin{bmatrix} 1 & 0 \end{bmatrix} \begin{bmatrix} \theta_k \\ b_k \end{bmatrix} + v_k
+```
 
 所以测量矩阵 $H$ 为：
 
-$$H = \begin{bmatrix} 1 & 0 \end{bmatrix}$$
+```math
+H = \begin{bmatrix} 1 & 0 \end{bmatrix}
+```
 
 这个 $H$ 的含义是：**我们只能直接测量角度 $\theta$，不能直接测量零偏 $b$**。$b$ 的估计完全靠滤波器自己"推理"出来。
 
@@ -206,7 +224,9 @@ $$H = \begin{bmatrix} 1 & 0 \end{bmatrix}$$
 
 **公式 (1)：状态预测** $\hat{x}_{k}^{-} = F\hat{x}_{k-1} + B u_k$
 
-$$\hat{x}_{k}^{-} = \begin{bmatrix} 1 & -0.01 \cr 0 & 1 \end{bmatrix} \begin{bmatrix} 0 \cr 0 \end{bmatrix} + \begin{bmatrix} 0.01 \cr 0 \end{bmatrix} \cdot 0.5 = \begin{bmatrix} 0.005 \cr 0 \end{bmatrix}$$
+```math
+\hat{x}_{k}^{-} = \begin{bmatrix} 1 & -0.01 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 0 \\ 0 \end{bmatrix} + \begin{bmatrix} 0.01 \\ 0 \end{bmatrix} \cdot 0.5 = \begin{bmatrix} 0.005 \\ 0 \end{bmatrix}
+```
 
 预测结果是：角度约 $0.005°$，零偏仍为 $0$。
 
@@ -214,11 +234,15 @@ $$\hat{x}_{k}^{-} = \begin{bmatrix} 1 & -0.01 \cr 0 & 1 \end{bmatrix} \begin{bma
 
 先算 $FPF^T$（不确定度也按系统规律传递到当前时刻）：
 
-$$FPF^T = \begin{bmatrix} 1 & -0.01 \cr 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \cr 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \cr -0.01 & 1 \end{bmatrix} = \begin{bmatrix} 1.0001 & -0.01 \cr -0.01 & 1 \end{bmatrix}$$
+```math
+FPF^T = \begin{bmatrix} 1 & -0.01 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ -0.01 & 1 \end{bmatrix} = \begin{bmatrix} 1.0001 & -0.01 \\ -0.01 & 1 \end{bmatrix}
+```
 
 再加上 $Q$：
 
-$$P_k^- = \begin{bmatrix} 1.0001 & -0.01 \cr -0.01 & 1 \end{bmatrix} + \begin{bmatrix} 0.001 & 0 \cr 0 & 0.000003 \end{bmatrix} = \begin{bmatrix} 1.0011 & -0.01 \cr -0.01 & 1.000003 \end{bmatrix}$$
+```math
+P_k^- = \begin{bmatrix} 1.0001 & -0.01 \\ -0.01 & 1 \end{bmatrix} + \begin{bmatrix} 0.001 & 0 \\ 0 & 0.000003 \end{bmatrix} = \begin{bmatrix} 1.0011 & -0.01 \\ -0.01 & 1.000003 \end{bmatrix}
+```
 
 对角线元素 $P_{00}=1.0011$ 表示目前对角度估计还很不确定（方差约 1），$P_{11}=1.000003$ 表示零偏估计同样不确定。
 
@@ -228,19 +252,27 @@ $$P_k^- = \begin{bmatrix} 1.0001 & -0.01 \cr -0.01 & 1 \end{bmatrix} + \begin{bm
 
 先算 $HP_k^-H^T$（预测的不确定度投影到测量空间）：
 
-$$HP_k^-H^T = \begin{bmatrix} 1 & 0 \end{bmatrix} \begin{bmatrix} 1.0011 & -0.01 \cr -0.01 & 1.000003 \end{bmatrix} \begin{bmatrix} 1 \cr 0 \end{bmatrix} = 1.0011$$
+```math
+HP_k^-H^T = \begin{bmatrix} 1 & 0 \end{bmatrix} \begin{bmatrix} 1.0011 & -0.01 \\ -0.01 & 1.000003 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} = 1.0011
+```
 
 这个值就是"我对角度预测有多不确定"。加上测量噪声后：
 
-$$S = HP_k^-H^T + R = 1.0011 + 0.03 = 1.0311$$
+```math
+S = HP_k^-H^T + R = 1.0011 + 0.03 = 1.0311
+```
 
 再算 $P_k^-H^T$：
 
-$$P_k^-H^T = \begin{bmatrix} 1.0011 & -0.01 \cr -0.01 & 1.000003 \end{bmatrix} \begin{bmatrix} 1 \cr 0 \end{bmatrix} = \begin{bmatrix} 1.0011 \cr -0.01 \end{bmatrix}$$
+```math
+P_k^-H^T = \begin{bmatrix} 1.0011 & -0.01 \\ -0.01 & 1.000003 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \begin{bmatrix} 1.0011 \\ -0.01 \end{bmatrix}
+```
 
 最后得到卡尔曼增益：
 
-$$K_k = \frac{1}{1.0311} \begin{bmatrix} 1.0011 \cr -0.01 \end{bmatrix} = \begin{bmatrix} 0.971 \cr -0.0097 \end{bmatrix}$$
+```math
+K_k = \frac{1}{1.0311} \begin{bmatrix} 1.0011 \\ -0.01 \end{bmatrix} = \begin{bmatrix} 0.971 \\ -0.0097 \end{bmatrix}
+```
 
 > 关键解读：**$K$ 是两个数，不是一个数。**
 > - $K_0 = 0.971$ → 测量值和预测值的差异中，**97%** 拿来修正角度。因为目前很不确定（$P_{00}=1.0011$ 远大于 $R=0.03$），滤波器选择"大幅相信测量"。
@@ -250,21 +282,29 @@ $$K_k = \frac{1}{1.0311} \begin{bmatrix} 1.0011 \cr -0.01 \end{bmatrix} = \begin
 
 新息（测量值和预测值的差）：
 
-$$z_k - H\hat{x}_{k}^{-} = 5.2 - 0.005 = 5.195$$
+```math
+z_k - H\hat{x}_{k}^{-} = 5.2 - 0.005 = 5.195
+```
 
 测量值比预测值大了 $5.195°$，这差的有点多，说明初始零偏猜测（0）很可能不对。
 
 用增益修正：
 
-$$\hat{x}_k = \begin{bmatrix} 0.005 \cr 0 \end{bmatrix} + \begin{bmatrix} 0.971 \cr -0.0097 \end{bmatrix} \cdot 5.195 = \begin{bmatrix} 0.005 + 5.044 \cr 0 - 0.050 \end{bmatrix} = \begin{bmatrix} 5.049° \cr -0.050\ °/s \end{bmatrix}$$
+```math
+\hat{x}_k = \begin{bmatrix} 0.005 \\ 0 \end{bmatrix} + \begin{bmatrix} 0.971 \\ -0.0097 \end{bmatrix} \cdot 5.195 = \begin{bmatrix} 0.005 + 5.044 \\ 0 - 0.050 \end{bmatrix} = \begin{bmatrix} 5.049° \\ -0.050\ °/s \end{bmatrix}
+```
 
 更新后的角度估计从 $0.005°$ 跳到了 $5.049°$，大幅向测量值靠拢了。同时零偏从 $0$ 被修正为 $-0.050\ °/s$，这就是滤波器在"推理"零偏——虽然测不到，但通过角度预测偏差间接推断出来了。
 
 **公式 (5)：协方差更新** $P_k = (I - K_kH)P_k^-$
 
-$$I - K_kH = \begin{bmatrix} 1 & 0 \cr 0 & 1 \end{bmatrix} - \begin{bmatrix} 0.971 \cr -0.0097 \end{bmatrix} \begin{bmatrix} 1 & 0 \end{bmatrix} = \begin{bmatrix} 0.029 & 0 \cr 0.0097 & 1 \end{bmatrix}$$
+```math
+I - K_kH = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} - \begin{bmatrix} 0.971 \\ -0.0097 \end{bmatrix} \begin{bmatrix} 1 & 0 \end{bmatrix} = \begin{bmatrix} 0.029 & 0 \\ 0.0097 & 1 \end{bmatrix}
+```
 
-$$P_k = \begin{bmatrix} 0.029 & 0 \cr 0.0097 & 1 \end{bmatrix} \begin{bmatrix} 1.0011 & -0.01 \cr -0.01 & 1.000003 \end{bmatrix} = \begin{bmatrix} 0.029 & -0.00029 \cr 0 & 0.9999 \end{bmatrix}$$
+```math
+P_k = \begin{bmatrix} 0.029 & 0 \\ 0.0097 & 1 \end{bmatrix} \begin{bmatrix} 1.0011 & -0.01 \\ -0.01 & 1.000003 \end{bmatrix} = \begin{bmatrix} 0.029 & -0.00029 \\ 0 & 0.9999 \end{bmatrix}
+```
 
 更新后 $P_{00}$ 从 $1.0011$ 骤降到 $0.029$——因为这次大幅相信了测量（$K_0=0.971$），角度不确定度被压低了近 35 倍。$P_{11}$ 也从 $1.000003$ 降到 $0.9999$，因为 $K_1$ 很小，零偏的确定度提升有限。
 
