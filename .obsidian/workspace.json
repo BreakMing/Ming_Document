@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e62638d77916e893",
@@ -194,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c68704bc3abbc2e",
+  "active": "7763dc9cea630640",
   "lastOpenFiles": [
     "technical_file/fix_math.py",
     "technical_file/fix_math.py.tmp.3356.a5c870df6172",
