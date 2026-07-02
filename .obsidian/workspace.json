@@ -197,6 +197,8 @@
   },
   "active": "55197657eea5317d",
   "lastOpenFiles": [
+    "technical_file/fix_all.py",
+    "technical_file/fix_all.py.tmp.3356.a9601db7ef7d",
     "technical_file/fix_underscore.py",
     "technical_file/fix_underscore.py.tmp.3356.eedecd1f9869",
     "technical_file/revert_sb.py",
@@ -207,8 +209,6 @@
     "technical_file/fix_math.py",
     "technical_file/fix_math.py.tmp.3356.a5c870df6172",
     "technical_file/Kalman Filter.md.tmp.3356.9318b3749a69",
-    "technical_file/Kalman Filter.md.tmp.3356.6f2bcdead07f",
-    "technical_file/Kalman Filter.md.tmp.3356.eeb847507943",
     "technical_file/assets/KalmanFilter/file-20260702142209424.png",
     "technical_file/Gyroscope.md",
     "technical_file/Kalman Filter 伪代码.md",
