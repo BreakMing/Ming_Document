@@ -196,20 +196,20 @@ $$H = \begin{bmatrix} 1 & 0 \end{bmatrix}$$
 
 **公式 (1)：状态预测** $\hat{x}_{k}^{-} = F\hat{x}_{k-1} + B u_k$
 
-$$
+```math
 \hat{x}_{k}^{-} = 
-\begin{bmatrix} 1 & -0.01 \cr 0 & 1 \end{bmatrix}
-\begin{bmatrix} 0 \cr 0 \end{bmatrix}
+\begin{bmatrix} 1 & -0.01 \\ 0 & 1 \end{bmatrix}
+\begin{bmatrix} 0 \\ 0 \end{bmatrix}
 +
-\begin{bmatrix} 0.01 \cr 0 \end{bmatrix}
+\begin{bmatrix} 0.01 \\ 0 \end{bmatrix}
 \cdot 0.5
 =
-\begin{bmatrix} 0 \cr 0 \end{bmatrix}
+\begin{bmatrix} 0 \\ 0 \end{bmatrix}
 +
-\begin{bmatrix} 0.005 \cr 0 \end{bmatrix}
+\begin{bmatrix} 0.005 \\ 0 \end{bmatrix}
 =
-\begin{bmatrix} 0.005 \cr 0 \end{bmatrix}
-$$
+\begin{bmatrix} 0.005 \\ 0 \end{bmatrix}
+```
 
 预测结果是：角度约 $0.005°$，零偏仍为 $0$。
 
