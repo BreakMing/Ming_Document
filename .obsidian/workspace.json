@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technical_file/Kalman Filter.md",
+                "file": "technical_file/测量方程讲解.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kalman Filter"
+              "title": "测量方程讲解"
             }
           },
           {
@@ -195,7 +195,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,8 +212,10 @@
   },
   "active": "fedd644e26fa612d",
   "lastOpenFiles": [
-    "technical_file/Gyroscope.md",
     "technical_file/Kalman Filter.md",
+    "technical_file/测量方程讲解.md",
+    "technical_file/测量方程讲解.md.tmp.27276.be8afcc3cbb3",
+    "technical_file/Gyroscope.md",
     "technical_file/assets/Kalman Filter/file-20260702142209424.png",
     "technical_file/assets/Kalman Filter",
     "technical_file/Kalman Filter.md.tmp.19796.f0622b1ccf10",
@@ -250,7 +253,6 @@
     "technical_file/assets/Hisi无线通信模组",
     "assets/Hisi 无线收发模块",
     "指令合集.md",
-    "technical_file/assets/Gyroscope",
     "technical_file/CANOPEN.md",
     "technical_file/CAN_脚本.md",
     "technical_file/CAN.md",
