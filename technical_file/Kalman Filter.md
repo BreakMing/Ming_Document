@@ -140,7 +140,7 @@ $K$ 是**动态变化**的——随着滤波器不断运行，$P$ 会慢慢减�
 
 #### 状态向量：我们要估计什么
 
-$$x = \begin{bmatrix} \theta \\ b \end{bmatrix}$$
+$$x = \begin{bmatrix} \theta \cr b \end{bmatrix}$$
 
 - $\theta$：载体的真实俯仰角（我们想要的）
 - $b$：陀螺仪的零偏（我们顺便估计出来的，用来补偿陀螺仪原始数据）
@@ -160,11 +160,11 @@ $$b_k = b_{k-1}$$
 
 写成矩阵形式：
 
-$$\begin{bmatrix} \theta_k \\ b_k \end{bmatrix} = \begin{bmatrix} 1 & -\Delta t \\ 0 & 1 \end{bmatrix} \begin{bmatrix} \theta_{k-1} \\ b_{k-1} \end{bmatrix} + \begin{bmatrix} \Delta t \\ 0 \end{bmatrix} \omega_k$$
+$$\begin{bmatrix} \theta_k \cr b_k \end{bmatrix} = \begin{bmatrix} 1 & -\Delta t \cr 0 & 1 \end{bmatrix} \begin{bmatrix} \theta_{k-1} \cr b_{k-1} \end{bmatrix} + \begin{bmatrix} \Delta t \cr 0 \end{bmatrix} \omega_k$$
 
 所以状态转移矩阵 $F$ 和控制矩阵 $B$ 为：
 
-$$F = \begin{bmatrix} 1 & -\Delta t \\ 0 & 1 \end{bmatrix}, \quad B = \begin{bmatrix} \Delta t \\ 0 \end{bmatrix}$$
+$$F = \begin{bmatrix} 1 & -\Delta t \cr 0 & 1 \end{bmatrix}, \quad B = \begin{bmatrix} \Delta t \cr 0 \end{bmatrix}$$
 
 > 注意：这里的 $\omega_k$ 是**陀螺仪直接输出的角速度**。它在数学上是"控制输入"的角色——告诉系统这一时刻旋转了多少。
 
@@ -176,7 +176,7 @@ $$\theta_{acc} = \theta_k + v_k$$
 
 其中 $v_k$ 是测量噪声（振动、加速度计自身噪声等）。写成矩阵形式：
 
-$$z_k = \begin{bmatrix} 1 & 0 \end{bmatrix} \begin{bmatrix} \theta_k \\ b_k \end{bmatrix} + v_k$$
+$$z_k = \begin{bmatrix} 1 & 0 \end{bmatrix} \begin{bmatrix} \theta_k \cr b_k \end{bmatrix} + v_k$$
 
 所以测量矩阵 $H$ 为：
 
@@ -193,8 +193,8 @@ $$H = \begin{bmatrix} 1 & 0 \end{bmatrix}$$
 | $\Delta t$ | $0.01$ | 采样周期 10ms（100Hz） |
 | 初始角度 $\theta_0$ | $0$ | 假设从水平面开始 |
 | 初始零偏 $b_0$ | $0$ | 一开始不知道零偏是多少 |
-| 初始协方差 $P_0$ | $\bigl[\begin{smallmatrix} 1 & 0 \\ 0 & 1 \end{smallmatrix}\bigr]$ | 对初始猜测不太自信，设大一点 |
-| 过程噪声 $Q$ | $\bigl[\begin{smallmatrix} 0.001 & 0 \\ 0 & 0.000003 \end{smallmatrix}\bigr]$ | 角度模型有小误差；零偏变化极慢 |
+| 初始协方差 $P_0$ | $\bigl[\begin{smallmatrix} 1 & 0 \cr 0 & 1 \end{smallmatrix}\bigr]$ | 对初始猜测不太自信，设大一点 |
+| 过程噪声 $Q$ | $\bigl[\begin{smallmatrix} 0.001 & 0 \cr 0 & 0.000003 \end{smallmatrix}\bigr]$ | 角度模型有小误差；零偏变化极慢 |
 | 测量噪声 $R$ | $0.03$ | 加速度计静止时角度方差的实测值 |
 | 陀螺仪读数 $\omega_k$ | $0.5\ °/s$ | 假设载体以 0.5°/s 匀速转动 |
 
@@ -206,7 +206,7 @@ $$H = \begin{bmatrix} 1 & 0 \end{bmatrix}$$
 
 **公式 (1)：状态预测** $\hat{x}_{k}^{-} = F\hat{x}_{k-1} + B u_k$
 
-$$\hat{x}_{k}^{-} = \begin{bmatrix} 1 & -0.01 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 0 \\ 0 \end{bmatrix} + \begin{bmatrix} 0.01 \\ 0 \end{bmatrix} \cdot 0.5 = \begin{bmatrix} 0.005 \\ 0 \end{bmatrix}$$
+$$\hat{x}_{k}^{-} = \begin{bmatrix} 1 & -0.01 \cr 0 & 1 \end{bmatrix} \begin{bmatrix} 0 \cr 0 \end{bmatrix} + \begin{bmatrix} 0.01 \cr 0 \end{bmatrix} \cdot 0.5 = \begin{bmatrix} 0.005 \cr 0 \end{bmatrix}$$
 
 预测结果是：角度约 $0.005°$，零偏仍为 $0$。
 
@@ -214,11 +214,11 @@ $$\hat{x}_{k}^{-} = \begin{bmatrix} 1 & -0.01 \\ 0 & 1 \end{bmatrix} \begin{bmat
 
 先算 $FPF^T$（不确定度也按系统规律传递到当前时刻）：
 
-$$FPF^T = \begin{bmatrix} 1 & -0.01 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \\ -0.01 & 1 \end{bmatrix} = \begin{bmatrix} 1.0001 & -0.01 \\ -0.01 & 1 \end{bmatrix}$$
+$$FPF^T = \begin{bmatrix} 1 & -0.01 \cr 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \cr 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 0 \cr -0.01 & 1 \end{bmatrix} = \begin{bmatrix} 1.0001 & -0.01 \cr -0.01 & 1 \end{bmatrix}$$
 
 再加上 $Q$：
 
-$$P_k^- = \begin{bmatrix} 1.0001 & -0.01 \\ -0.01 & 1 \end{bmatrix} + \begin{bmatrix} 0.001 & 0 \\ 0 & 0.000003 \end{bmatrix} = \begin{bmatrix} 1.0011 & -0.01 \\ -0.01 & 1.000003 \end{bmatrix}$$
+$$P_k^- = \begin{bmatrix} 1.0001 & -0.01 \cr -0.01 & 1 \end{bmatrix} + \begin{bmatrix} 0.001 & 0 \cr 0 & 0.000003 \end{bmatrix} = \begin{bmatrix} 1.0011 & -0.01 \cr -0.01 & 1.000003 \end{bmatrix}$$
 
 对角线元素 $P_{00}=1.0011$ 表示目前对角度估计还很不确定（方差约 1），$P_{11}=1.000003$ 表示零偏估计同样不确定。
 
@@ -228,7 +228,7 @@ $$P_k^- = \begin{bmatrix} 1.0001 & -0.01 \\ -0.01 & 1 \end{bmatrix} + \begin{bma
 
 先算 $HP_k^-H^T$（预测的不确定度投影到测量空间）：
 
-$$HP_k^-H^T = \begin{bmatrix} 1 & 0 \end{bmatrix} \begin{bmatrix} 1.0011 & -0.01 \\ -0.01 & 1.000003 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} = 1.0011$$
+$$HP_k^-H^T = \begin{bmatrix} 1 & 0 \end{bmatrix} \begin{bmatrix} 1.0011 & -0.01 \cr -0.01 & 1.000003 \end{bmatrix} \begin{bmatrix} 1 \cr 0 \end{bmatrix} = 1.0011$$
 
 这个值就是"我对角度预测有多不确定"。加上测量噪声后：
 
@@ -236,11 +236,11 @@ $$S = HP_k^-H^T + R = 1.0011 + 0.03 = 1.0311$$
 
 再算 $P_k^-H^T$：
 
-$$P_k^-H^T = \begin{bmatrix} 1.0011 & -0.01 \\ -0.01 & 1.000003 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \begin{bmatrix} 1.0011 \\ -0.01 \end{bmatrix}$$
+$$P_k^-H^T = \begin{bmatrix} 1.0011 & -0.01 \cr -0.01 & 1.000003 \end{bmatrix} \begin{bmatrix} 1 \cr 0 \end{bmatrix} = \begin{bmatrix} 1.0011 \cr -0.01 \end{bmatrix}$$
 
 最后得到卡尔曼增益：
 
-$$K_k = \frac{1}{1.0311} \begin{bmatrix} 1.0011 \\ -0.01 \end{bmatrix} = \begin{bmatrix} 0.971 \\ -0.0097 \end{bmatrix}$$
+$$K_k = \frac{1}{1.0311} \begin{bmatrix} 1.0011 \cr -0.01 \end{bmatrix} = \begin{bmatrix} 0.971 \cr -0.0097 \end{bmatrix}$$
 
 > 关键解读：**$K$ 是两个数，不是一个数。**
 > - $K_0 = 0.971$ → 测量值和预测值的差异中，**97%** 拿来修正角度。因为目前很不确定（$P_{00}=1.0011$ 远大于 $R=0.03$），滤波器选择"大幅相信测量"。
@@ -256,15 +256,15 @@ $$z_k - H\hat{x}_{k}^{-} = 5.2 - 0.005 = 5.195$$
 
 用增益修正：
 
-$$\hat{x}_k = \begin{bmatrix} 0.005 \\ 0 \end{bmatrix} + \begin{bmatrix} 0.971 \\ -0.0097 \end{bmatrix} \cdot 5.195 = \begin{bmatrix} 0.005 + 5.044 \\ 0 - 0.050 \end{bmatrix} = \begin{bmatrix} 5.049° \\ -0.050\ °/s \end{bmatrix}$$
+$$\hat{x}_k = \begin{bmatrix} 0.005 \cr 0 \end{bmatrix} + \begin{bmatrix} 0.971 \cr -0.0097 \end{bmatrix} \cdot 5.195 = \begin{bmatrix} 0.005 + 5.044 \cr 0 - 0.050 \end{bmatrix} = \begin{bmatrix} 5.049° \cr -0.050\ °/s \end{bmatrix}$$
 
 更新后的角度估计从 $0.005°$ 跳到了 $5.049°$，大幅向测量值靠拢了。同时零偏从 $0$ 被修正为 $-0.050\ °/s$，这就是滤波器在"推理"零偏——虽然测不到，但通过角度预测偏差间接推断出来了。
 
 **公式 (5)：协方差更新** $P_k = (I - K_kH)P_k^-$
 
-$$I - K_kH = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} - \begin{bmatrix} 0.971 \\ -0.0097 \end{bmatrix} \begin{bmatrix} 1 & 0 \end{bmatrix} = \begin{bmatrix} 0.029 & 0 \\ 0.0097 & 1 \end{bmatrix}$$
+$$I - K_kH = \begin{bmatrix} 1 & 0 \cr 0 & 1 \end{bmatrix} - \begin{bmatrix} 0.971 \cr -0.0097 \end{bmatrix} \begin{bmatrix} 1 & 0 \end{bmatrix} = \begin{bmatrix} 0.029 & 0 \cr 0.0097 & 1 \end{bmatrix}$$
 
-$$P_k = \begin{bmatrix} 0.029 & 0 \\ 0.0097 & 1 \end{bmatrix} \begin{bmatrix} 1.0011 & -0.01 \\ -0.01 & 1.000003 \end{bmatrix} = \begin{bmatrix} 0.029 & -0.00029 \\ 0 & 0.9999 \end{bmatrix}$$
+$$P_k = \begin{bmatrix} 0.029 & 0 \cr 0.0097 & 1 \end{bmatrix} \begin{bmatrix} 1.0011 & -0.01 \cr -0.01 & 1.000003 \end{bmatrix} = \begin{bmatrix} 0.029 & -0.00029 \cr 0 & 0.9999 \end{bmatrix}$$
 
 更新后 $P_{00}$ 从 $1.0011$ 骤降到 $0.029$——因为这次大幅相信了测量（$K_0=0.971$），角度不确定度被压低了近 35 倍。$P_{11}$ 也从 $1.000003$ 降到 $0.9999$，因为 $K_1$ 很小，零偏的确定度提升有限。
 
