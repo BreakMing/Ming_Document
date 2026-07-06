@@ -195,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5f8832a8b90c3ae",
+  "active": "2c68704bc3abbc2e",
   "lastOpenFiles": [
     "technical_file/MPU6050.md",
     "technical_file/Package_Manager_V1.1.md",
