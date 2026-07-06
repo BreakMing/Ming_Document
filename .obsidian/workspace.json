@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Kalman Filter"
             }
+          },
+          {
+            "id": "a5f8832a8b90c3ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "technical_file/库仑计.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "库仑计"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -196,8 +210,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "55197657eea5317d",
+  "active": "a5f8832a8b90c3ae",
   "lastOpenFiles": [
+    "technical_file/测量方程讲解.md",
+    "technical_file/库仑计.md",
+    "technical_file/Kalman Filter.md",
+    "technical_file/库仑计",
     "technical_file/Kalman Filter.md.tmp.12264.1507769c8fbe",
     "technical_file/Kalman Filter.md.tmp.12264.fb6ffa4bd1e0",
     "technical_file/Kalman Filter.md.tmp.12264.857276e2c483",
@@ -207,13 +225,9 @@
     "technical_file/Kalman Filter.md.tmp.12264.85a343824242",
     "technical_file/Kalman Filter.md.tmp.12264.2b65c155cadf",
     "technical_file/Kalman Filter.md.tmp.12264.d3d5ecfe929a",
-    "technical_file/Kalman Filter.md.tmp.12264.e2ef5ea68c29",
-    "technical_file/Kalman Filter.md.tmp.12264.2374b3aecc89",
-    "technical_file/Kalman Filter.md",
     "technical_file/assets/KalmanFilter/file-20260702142209424.png",
     "technical_file/Gyroscope.md",
     "technical_file/Kalman Filter 伪代码.md",
-    "technical_file/测量方程讲解.md",
     "technical_file/assets/Kalman Filter/file-20260702142209424.png",
     "Hisi_案例素材的问题.md",
     "technical_file/MPU6050.md",
