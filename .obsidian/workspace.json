@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -225,10 +224,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f06445d9734e7df2",
+  "active": "6d40d5572f56e80b",
   "lastOpenFiles": [
-    "technical_file/MPU6050.md",
     "technical_file/mpu6050怎么用.md",
+    "technical_file/MPU6050.md",
     "technical_file/assets/mpu6050怎么用/file-20260708105207754.png",
     "technical_file/assets/mpu6050怎么用",
     "technical_file/RF射频.md",
