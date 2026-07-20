@@ -18,6 +18,8 @@ Modbus RTU缺少了数据链路层
 
 ## C.工业以太网/以太网家族
 
+数据链路Ethernet（IEEE 802.3 MAC + IEEE 802.2 LLC）   这样写更标准
+
 
 
 
