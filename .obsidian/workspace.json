@@ -4,53 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "ab77c9b885cfd46d",
+        "id": "550030088bf6bbd4",
         "type": "tabs",
         "children": [
           {
-            "id": "47f8b9c577ce239d",
+            "id": "e610590230d57802",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technical_file/库仑计.md",
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "库仑计"
+              "title": "未命名"
             }
           },
           {
-            "id": "f06445d9734e7df2",
+            "id": "03cf9f09ce0fb2d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technical_file/有意思的视频选题.md",
+                "file": "OSI问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "有意思的视频选题"
-            }
-          },
-          {
-            "id": "18d80a5723c7e1d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "technical_file/有意思的视频选题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "有意思的视频选题"
+              "title": "OSI问题"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e62638d77916e893",
@@ -224,12 +211,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18d80a5723c7e1d3",
+  "active": "03cf9f09ce0fb2d7",
   "lastOpenFiles": [
-    "纳芯微——MT6901.md",
-    "technical_file/有意思的视频选题.md",
-    "technical_file/mpu6050怎么用.md",
+    "assets/OSI问题/file-20260720105616196.png",
+    "assets/OSI问题/file-20260720105352322.png",
+    "assets/OSI问题",
+    "未命名.md",
+    "OSI问题.md",
     "technical_file/库仑计.md",
+    "technical_file/有意思的视频选题.md",
+    "纳芯微——MT6901.md",
+    "technical_file/mpu6050怎么用.md",
     "technical_file/Hisi无线通信模组.md",
     "technical_file/CANOPEN.md",
     "technical_file/CAN_脚本.md",
@@ -262,15 +254,10 @@
     "technical_file/Kalman Filter.md.tmp.12264.0fb606538ad2",
     "technical_file/Kalman Filter.md.tmp.12264.b51b878ef11e",
     "technical_file/Kalman Filter.md.tmp.12264.ff1d551f7e70",
-    "technical_file/Kalman Filter.md.tmp.12264.85a343824242",
     "technical_file/assets/KalmanFilter/file-20260702142209424.png",
     "technical_file/assets/Kalman Filter/file-20260702142209424.png",
     "Hisi_案例素材的问题.md",
     "technical_file/assets/Gyroscope/file-20260615155353272.png",
-    "technical_file/assets/Gyroscope/file-20260609144945167.png",
-    "technical_file/Vide_Coding_Keyboard.md",
-    "technical_file/Reinforcement learning（RL）.md",
-    "technical_file/Vibe_Coding_Keyboard.md",
-    "technical_file/README.md"
+    "technical_file/Vide_Coding_Keyboard.md"
   ]
 }
