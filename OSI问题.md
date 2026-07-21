@@ -24,9 +24,9 @@ PROFINET只有7，4、3与TCP一样
 
 EtherCAT 3~6层没有覆盖
 
-Sercos Ⅲ 同PROFINET
+Sercos Ⅲ 同 PROFINET
 
-
+CC-Link IE 同 PROFINET
 
 ### 10BASE-T(10Mbps)
 
