@@ -20,9 +20,13 @@ Modbus RTU缺少了数据链路层
 
 数据链路Ethernet（IEEE 802.3 MAC + IEEE 802.2 LLC）   这样写更标准
 
-PROFINET占5~7，4、3与前面一样
+PROFINET只有7，4、3与TCP一样
 
 EtherCAT 3~6层没有覆盖
+
+Sercos Ⅲ 同PROFINET
+
+
 
 ### 10BASE-T(10Mbps)
 
