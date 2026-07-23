@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSI问题.md",
+                "file": "technical_file/库仑计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSI问题"
+              "title": "库仑计"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -198,8 +197,8 @@
   },
   "active": "03cf9f09ce0fb2d7",
   "lastOpenFiles": [
-    "未命名.md",
     "OSI问题.md",
+    "未命名.md",
     "assets/OSI问题/file-20260720113002425.png",
     "assets/OSI问题/file-20260720112330055.png",
     "assets/OSI问题/file-20260720112219034.png",
