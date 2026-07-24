@@ -41,8 +41,11 @@ CC-Link IE 同 PROFINET
 
 #### 电平定义
 
+```
 高电平：Vdiff=+2.5v（TX+>TX-）
 低电平：Vdiff=-2.5v（TX+<TX-）
+```
+
 
 编码方式使用曼彻斯特编码
 
@@ -59,8 +62,11 @@ CC-Link IE 同 PROFINET
 
 #### 电平定义
 
+```
 正高电平：Vdiff=+1.0v（TX+>TX-）
 正低电平：Vdiff=-1.0v（TX+<TX-）
+```
+
 
 编码方式改为4B/5B编码
 
@@ -86,11 +92,14 @@ CC-Link IE 同 PROFINET
 
 #### 电平定义
 
+```
 +2级：Vdiff=+1.0v
 +1级：Vdiff=+0.5v
 0级：Vdiff=0v
 -1级：Vdiff=-0.5v
 -2级：Vdiff=-1.0v
+```
+
 
 每个电平代表一个符号，单个符号最高可承载2bit信息
 
