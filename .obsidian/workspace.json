@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSI问题.md",
+                "file": "technical_file/CAN_脚本.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSI问题"
+              "title": "CAN_脚本"
             }
           }
         ]
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,9 +197,10 @@
   },
   "active": "03cf9f09ce0fb2d7",
   "lastOpenFiles": [
+    "technical_file/CANOPEN.md",
+    "OSI问题.md",
     "technical_file/Linux_Learning_Path.md",
     "technical_file/库仑计.md",
-    "OSI问题.md",
     "未命名.md",
     "assets/OSI问题/file-20260720113002425.png",
     "assets/OSI问题/file-20260720112330055.png",
@@ -212,7 +214,6 @@
     "纳芯微——MT6901.md",
     "technical_file/mpu6050怎么用.md",
     "technical_file/Hisi无线通信模组.md",
-    "technical_file/CANOPEN.md",
     "technical_file/CAN_脚本.md",
     "technical_file/CAN.md",
     "technical_file/滤波.md",
