@@ -35,8 +35,7 @@
               "title": "电阻、电容和电感的测量"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -211,10 +209,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6eace9be20177177",
+  "active": "03cf9f09ce0fb2d7",
   "lastOpenFiles": [
-    "technical_file/库仑计.md",
     "technical_file/电阻、电容和电感的测量.md",
+    "technical_file/库仑计.md",
     "technical_file/测量方程讲解.md",
     "technical_file/CANOPEN.md",
     "technical_file/ESP  海思.md",
