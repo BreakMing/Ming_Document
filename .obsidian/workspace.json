@@ -209,8 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,7 +223,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1a3ea8da752c777",
+  "active": "2c68704bc3abbc2e",
   "lastOpenFiles": [
     "assets/纳芯微磁编码器文件问题/file-20260803103729933.png",
     "assets/纳芯微磁编码器文件问题/file-20260803103656923.png",
