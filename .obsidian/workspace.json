@@ -226,6 +226,10 @@
   },
   "active": "a1a3ea8da752c777",
   "lastOpenFiles": [
+    "assets/纳芯微磁编码器文件问题/file-20260803103729933.png",
+    "assets/纳芯微磁编码器文件问题/file-20260803103656923.png",
+    "assets/纳芯微磁编码器文件问题/file-20260803103624457.png",
+    "assets/纳芯微磁编码器文件问题",
     "未命名.md",
     "指令合集.md",
     "Hisi 无线收发模块.md",
@@ -251,7 +255,6 @@
     "technical_file/Hisi无线通信模组.md",
     "technical_file/Kalman Filter.md",
     "technical_file/Kalman Filter 伪代码.md",
-    "technical_file/滤波.md",
     "assets/OSI问题/file-20260720113002425.png",
     "assets/OSI问题/file-20260720112330055.png",
     "assets/OSI问题/file-20260720112219034.png",
@@ -262,15 +265,12 @@
     "assets/OSI问题",
     "technical_file/assets/mpu6050怎么用/file-20260708105207754.png",
     "technical_file/assets/mpu6050怎么用",
-    "technical_file/assets/库仑计/file-20260707142111381.png",
-    "technical_file/assets/库仑计/file-20260707131135497.png",
     "technical_file/assets/库仑计",
     "technical_file/库仑计",
     "technical_file/Kalman Filter.md.tmp.12264.1507769c8fbe",
     "technical_file/Kalman Filter.md.tmp.12264.fb6ffa4bd1e0",
     "technical_file/Kalman Filter.md.tmp.12264.857276e2c483",
     "technical_file/Kalman Filter.md.tmp.12264.0fb606538ad2",
-    "technical_file/Kalman Filter.md.tmp.12264.b51b878ef11e",
-    "technical_file/Kalman Filter.md.tmp.12264.ff1d551f7e70"
+    "technical_file/Kalman Filter.md.tmp.12264.b51b878ef11e"
   ]
 }
