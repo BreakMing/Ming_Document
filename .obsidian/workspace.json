@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "纳芯微磁编码器"
             }
+          },
+          {
+            "id": "7d35b4e0e7624b5f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.13.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -56,7 +68,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -210,7 +224,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6eace9be20177177",
+  "active": "7d35b4e0e7624b5f",
   "lastOpenFiles": [
     "assets/纳芯微磁编码器",
     "未命名.md",
