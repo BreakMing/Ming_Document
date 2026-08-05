@@ -13,20 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "technical_file/库仑计.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "库仑计"
-            }
-          },
-          {
-            "id": "6eace9be20177177",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "technical_file/电阻、电容和电感的测量.md",
                 "mode": "source",
                 "source": false
@@ -35,8 +21,7 @@
               "title": "电阻、电容和电感的测量"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e62638d77916e893",
@@ -213,9 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6eace9be20177177",
+  "active": "d2197f58198f503f",
   "lastOpenFiles": [
     "technical_file/库仑计.md",
+    "OSI问题.md",
     "technical_file/电阻、电容和电感的测量.md",
     "纳芯微磁编码器.md",
     "assets/纳芯微磁编码器",
@@ -224,7 +209,6 @@
     "Hisi 无线收发模块.md",
     "Hisi_案例素材的问题.md",
     "NS1140A 测试.md",
-    "OSI问题.md",
     "assets/纳芯微磁编码器/file-20260804111535906.png",
     "assets/纳芯微磁编码器/file-20260804111535907.png",
     "assets/纳芯微磁编码器/file-20260804111535907 1.png",
