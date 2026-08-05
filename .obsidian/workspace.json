@@ -197,8 +197,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d2197f58198f503f",
+  "active": "03cf9f09ce0fb2d7",
   "lastOpenFiles": [
+    "technical_file/assets/电阻、电容和电感的测量/file-20260805180204877.png",
+    "technical_file/assets/电阻、电容和电感的测量/file-20260805180153392.png",
+    "technical_file/assets/电阻、电容和电感的测量",
     "technical_file/库仑计.md",
     "OSI问题.md",
     "technical_file/电阻、电容和电感的测量.md",
@@ -235,14 +238,12 @@
     "assets/OSI问题/file-20260720111608663.png",
     "assets/OSI问题/file-20260720110015699.png",
     "assets/OSI问题/file-20260720105616196.png",
-    "assets/OSI问题/file-20260720105352322.png",
     "assets/OSI问题",
     "technical_file/assets/mpu6050怎么用",
     "technical_file/assets/库仑计",
     "technical_file/库仑计",
     "technical_file/Kalman Filter.md.tmp.12264.1507769c8fbe",
     "technical_file/Kalman Filter.md.tmp.12264.fb6ffa4bd1e0",
-    "technical_file/Kalman Filter.md.tmp.12264.857276e2c483",
-    "technical_file/Kalman Filter.md.tmp.12264.0fb606538ad2"
+    "technical_file/Kalman Filter.md.tmp.12264.857276e2c483"
   ]
 }
