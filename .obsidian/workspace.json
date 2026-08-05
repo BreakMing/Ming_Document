@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "550030088bf6bbd4",
+        "id": "f93e9597c24ecf42",
         "type": "tabs",
         "children": [
           {
-            "id": "03cf9f09ce0fb2d7",
+            "id": "0b53e9b37bc82530",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -197,14 +197,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "03cf9f09ce0fb2d7",
+  "active": "0b53e9b37bc82530",
   "lastOpenFiles": [
+    "technical_file/assets/电阻、电容和电感的测量/file-20260805181140437.png",
+    "technical_file/assets/电阻、电容和电感的测量/file-20260805181215322.jpg",
     "technical_file/assets/电阻、电容和电感的测量/file-20260805180204877.png",
     "technical_file/assets/电阻、电容和电感的测量/file-20260805180153392.png",
+    "technical_file/电阻、电容和电感的测量.md",
     "technical_file/assets/电阻、电容和电感的测量",
     "technical_file/库仑计.md",
     "OSI问题.md",
-    "technical_file/电阻、电容和电感的测量.md",
     "纳芯微磁编码器.md",
     "assets/纳芯微磁编码器",
     "未命名.md",
@@ -235,9 +237,6 @@
     "assets/OSI问题/file-20260720113002425.png",
     "assets/OSI问题/file-20260720112330055.png",
     "assets/OSI问题/file-20260720112219034.png",
-    "assets/OSI问题/file-20260720111608663.png",
-    "assets/OSI问题/file-20260720110015699.png",
-    "assets/OSI问题/file-20260720105616196.png",
     "assets/OSI问题",
     "technical_file/assets/mpu6050怎么用",
     "technical_file/assets/库仑计",
