@@ -43,7 +43,7 @@
 
 按结构分：
 
-![](assets/NFC/file-20260210161515239.png)
+![](../assets/technical_file/NFC/file-20260210161515239.png)
 
 # RFID（射频识别）
 
@@ -78,7 +78,7 @@ RFID属于识别技术  NFC属于通信技术
 
 防冲突  可同时操作读写范围内的多张卡，保证与选定的卡执行交易
 
-![](assets/NFC/file-20260210172232589.png)
+![](../assets/technical_file/NFC/file-20260210172232589.png)
 
 
 

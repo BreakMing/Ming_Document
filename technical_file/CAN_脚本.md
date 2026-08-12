@@ -2,7 +2,7 @@
 
 ### 串口发送CAN格式
 
-![](assets/CAN_脚本/file-20260409161539855.png)
+![](../assets/technical_file/CAN_脚本/file-20260409161539855.png)
 
 
 CAN 230 4 01 02 03 04
@@ -16,7 +16,7 @@ CAN 230 4 01 02 03 04
 
 ### 示波器捕获标准CAN协议
 
-![](assets/CAN_脚本/file-20260409161539853.png)
+![](../assets/technical_file/CAN_脚本/file-20260409161539853.png)
 
 
 
@@ -26,7 +26,7 @@ CAN 230 4 01 02 03 04
 
 ### PP系列电机协议解读（CAN）
 
-![](assets/CAN_脚本/file-20260409161539852.png)
+![](../assets/technical_file/CAN_脚本/file-20260409161539852.png)
 
 - CAN_ID：基本ID0x01~0xff可用，0x00为广播
 - DLC：CAN数据帧长度
@@ -36,11 +36,11 @@ CAN 230 4 01 02 03 04
 
 命令类型表：
 
-![](assets/CAN_脚本/file-20260409161539850%201.png)
+![](../assets/technical_file/CAN_脚本/file-20260409161539850%201.png)
 
 指令地址：（部分）
 
-![](assets/CAN_脚本/file-20260409161539850.png)
+![](../assets/technical_file/CAN_脚本/file-20260409161539850.png)
 
 比如  002 6 01 09 00 00 2A AA    这组CAN数据，输入这行命令就可以让电机以10RPM的速度旋转
 
@@ -68,7 +68,7 @@ CANOPEN的报文和普通CAN的报文在格式上是一样的，不同的是一�
 
 以下面这条报文为例
 
-![](assets/CAN_脚本/file-20260409161539848%201.png)
+![](../assets/technical_file/CAN_脚本/file-20260409161539848%201.png)
 
 我们可以看到三个数据 
 
@@ -78,7 +78,7 @@ CANOPEN的报文和普通CAN的报文在格式上是一样的，不同的是一�
 
 其中601是通信表示符也叫COB-ID,格式以及分配表可参考下图。
 
-![](assets/CAN_脚本/file-20260409161539848.png)
+![](../assets/technical_file/CAN_脚本/file-20260409161539848.png)
 
 我们把601拆解下，可以理解成600h+1h，其中600h是RSDO通信对象的指令，1就是电机id。
 
@@ -90,15 +90,15 @@ CANOPEN的报文和普通CAN的报文在格式上是一样的，不同的是一�
 
 从ID位我们知道我们的通信对象是RSDO，参考SDO的报文格式我们就可以对数据进行解析了。
 
-![](assets/CAN_脚本/file-20260409161539846%201.png)
+![](../assets/technical_file/CAN_脚本/file-20260409161539846%201.png)
 
-![](assets/CAN_脚本/file-20260409161539846.png)
+![](../assets/technical_file/CAN_脚本/file-20260409161539846.png)
 
 其中Byte0位是数据长度命令，Byte1和Byte2共同组成了索引地址(小端模式，低位在前)，Byte3是索引地址的子地址，Byte4~Byte7是数据位（小端模式），这里就是我们要填的数据了。
 
 查看下图，这个就是我们这个命令填入的索引地址。
 
-![](assets/CAN_脚本/file-20260409161539844.png)
+![](../assets/technical_file/CAN_脚本/file-20260409161539844.png)
 
 从左上角看它的索引地址四0x6081，子索引地址是00，
 
@@ -155,9 +155,9 @@ CAN帧
 
 
 
-![](assets/CAN_脚本/file-20260414162858619.png)
+![](../assets/technical_file/CAN_脚本/file-20260414162858619.png)
 
-![](assets/CAN_脚本/file-20260414162858635.png)
+![](../assets/technical_file/CAN_脚本/file-20260414162858635.png)
 
 
 

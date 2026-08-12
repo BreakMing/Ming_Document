@@ -34,7 +34,7 @@ apt download nginx
 
 而在Linux上我们其实也是可以去软件商店，或者官网下载Linux版本的安装包的，如下图所示。
 
-![](assets/Package_Manager_V1.1/file-20260416111258735.png)
+![](../assets/technical_file/Package_Manager_V1.1/file-20260416111258735.png)
 
 很多常用的软件都是提供不同版本的安装包的。
 
@@ -42,7 +42,7 @@ apt download nginx
 
 我们在官网上很难找到软件包的下载按钮，而官方提供的则是一串安装命令。
 
-![](assets/Package_Manager_V1.1/file-20260416115641028.png)
+![](../assets/technical_file/Package_Manager_V1.1/file-20260416115641028.png)
 
 这时候我们就不得不面对那个黑黢黢的界面了。
 
@@ -50,7 +50,7 @@ apt download nginx
 
 我们先来找一个项目作为实例，做一个粗浅的了解。
 
-![](assets/Package_Manager_V1.1/file-20260416105716045.png)
+![](../assets/technical_file/Package_Manager_V1.1/file-20260416105716045.png)
 
 我们可以看到，开头这个命令是 `pip install speedtest-cli` 。`install` 为安装的意思，`pip` 则是一个包管理器的名字，这是在用包管理器安装 `install` 后面的软件包。
 

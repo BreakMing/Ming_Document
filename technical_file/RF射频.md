@@ -73,7 +73,7 @@ PSK是最简单的QAM
 
 ## 常见通信技术的调制参考
 
-![](assets/RF射频/file-20260206123340400.png)
+![](../assets/technical_file/RF射频/file-20260206123340400.png)
 
 需要注意的是**wifi**和4g 5g这样的通信方式它是由**OFDM(多载波)** 和这些调制技术结合所产生的
 
@@ -82,7 +82,7 @@ PSK是最简单的QAM
 ## 星座图
 
 
-![400](assets/RF射频/file-20260204164233638.png)
+![400](../assets/technical_file/RF射频/file-20260204164233638.png)
 
 **调制方式**：用的是QFSK  QPSK  QAM再或者是16QAM还是64QAM（这俩都是QAM的变种，就是对QAM进行调相和调幅分成更多的区间）
 
@@ -148,7 +148,7 @@ PSK是最简单的QAM
 
 ![](assets/RF射频/file-20260206121142783.png)
 
-![](assets/RF射频/file-20260205183528743.png)
+![](../assets/technical_file/RF射频/file-20260205183528743.png)
 
 以HS2260A-R4这个芯片为例，由引脚图可知，其有8个地址引脚，4个数据引脚，
 
@@ -291,7 +291,7 @@ Keeloq ，Hitag2
 ## 硬件
 
 ### 通过硬件编解码发送接收
-![400](assets/RF射频/file-20260204183145657.png)
+![400](../assets/technical_file/RF射频/file-20260204183145657.png)
 
 上图这种样式，发射端遥控器按钮和接收端io输出都是一一对应的关系，每个按键都会发送其固定的协议数据，这样的都是固定码的形式发送的协议。
 
@@ -299,7 +299,7 @@ Keeloq ，Hitag2
 
 ### pcb板解读
 
-![](assets/RF射频/file-20260205120846954.png)
+![](../assets/technical_file/RF射频/file-20260205120846954.png)
 
 在自己制作的硬件中核心为一个单片机和不同频率的发送和接收模块，单片机接收到接收模块接收的数据，使用[RCSwitch](https://github.com/sui77/rc-switch)库与库中记录的协议匹配解码，就可以解析出数据信息。包括脉冲时间，发送数据，发送频率，数据位数，协议编号。
 
@@ -312,11 +312,11 @@ Keeloq ，Hitag2
 ![](assets/RF射频/file-20260205114743914.png)
 
 
-![](assets/RF射频/file-20260205115107264.png)
+![](../assets/technical_file/RF射频/file-20260205115107264.png)
 
 同一个厂家发送端是不同的ID（公司大厅灯的开关（左）公司实验室灯开关（右））
 
-![](assets/RF射频/file-20260205120107182.png)
+![](../assets/technical_file/RF射频/file-20260205120107182.png)
 
 
 # 相关代码固件
